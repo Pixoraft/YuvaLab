@@ -5,6 +5,7 @@ import { useState } from "react";
 
 const PackagesShowcase = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isFeverPanelModalOpen, setIsFeverPanelModalOpen] = useState(false);
   
   const handleBookPackage = (
     packageTitle: string,
@@ -119,6 +120,54 @@ const PackagesShowcase = () => {
         "Iron Profile",
         "Lipase",
         "Amylase"
+      ]
+    }
+  ];
+  
+  const feverPanelDetails = [
+    {
+      name: "Fever Panel 1",
+      discountedPrice: 299,
+      originalPrice: 399,
+      tests: [
+        "CBC (Complete Blood Count)",
+        "Widal Test",
+        "Urine Examination"
+      ]
+    },
+    {
+      name: "Fever Panel 2",
+      discountedPrice: 499,
+      originalPrice: 700,
+      tests: [
+        "CBC (Complete Blood Count)",
+        "Widal Test",
+        "MP (Malaria Parasite Test)",
+        "Urine Examination"
+      ]
+    },
+    {
+      name: "Fever Panel 3 (Dengue/Fever Panel)",
+      discountedPrice: 1499,
+      originalPrice: 2499,
+      tests: [
+        "CBC (Complete Blood Count)",
+        "LFT (Liver Function Test)",
+        "Widal Test",
+        "MP (Malaria Parasite Test)",
+        "Dengue",
+        "CRP (C-Reactive Protein)",
+        "Urine Examination"
+      ]
+    },
+    {
+      name: "All Fever Panel (Fever Panel 4)",
+      discountedPrice: null,
+      originalPrice: null,
+      tests: [
+        "CBC (Complete Blood Count)",
+        "ESR (Erythrocyte Sedimentation Rate)",
+        "Contact for pricing"
       ]
     }
   ];
@@ -283,7 +332,35 @@ const PackagesShowcase = () => {
                   </div>
 
                   {/* Package Features */}
-                  {pkg.features && (
+                  {pkg.features && pkg.id === "mfpa" && (
+                    <div className="mb-4">
+                      <div className="flex justify-between items-center mb-2">
+                        <h4 className="text-sm font-semibold text-primary">
+                          Test Options:
+                        </h4>
+                        <Button
+                          onClick={() => setIsFeverPanelModalOpen(true)}
+                          variant="outline"
+                          size="sm"
+                          className="text-xs px-2 py-1 h-6"
+                        >
+                          More Details
+                        </Button>
+                      </div>
+                      <div className="flex flex-wrap gap-1">
+                        {pkg.features.slice(0, 3).map((feature, index) => (
+                          <span
+                            key={index}
+                            className="text-xs bg-primary/10 text-primary px-2 py-1 rounded border border-primary/20"
+                          >
+                            {feature}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                  {/* Package Features for other packages */}
+                  {pkg.features && pkg.id !== "mfpa" && (
                     <div className="mb-4">
                       <div className="flex flex-wrap gap-1">
                         {pkg.features.slice(0, 3).map((feature, index) => (
@@ -444,6 +521,66 @@ const PackagesShowcase = () => {
                   {pkg.tests.map((test, testIndex) => (
                     <div key={testIndex} className="flex items-center gap-2 text-sm p-2 bg-white/60 rounded border">
                       <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700">{test}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </DialogContent>
+      </Dialog>
+      
+      {/* Fever Panel Details Modal */}
+      <Dialog open={isFeverPanelModalOpen} onOpenChange={setIsFeverPanelModalOpen}>
+        <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle className="text-2xl font-bold text-primary mb-2">Fever Panel Options - Complete Details</DialogTitle>
+            <DialogDescription className="text-sm text-muted-foreground">
+              Choose from our comprehensive fever panel packages
+            </DialogDescription>
+          </DialogHeader>
+          
+          <div className="grid gap-6 mt-4">
+            {feverPanelDetails.map((pkg, index) => (
+              <div key={index} className="border rounded-lg p-4 bg-gradient-to-r from-red-50/50 to-white">
+                <div className="flex justify-between items-start mb-3">
+                  <div>
+                    <h3 className="text-lg font-bold text-primary">{pkg.name}</h3>
+                    <div className="flex items-center gap-2 mt-1">
+                      {pkg.discountedPrice && pkg.originalPrice ? (
+                        <>
+                          <span className="text-xl font-bold text-green-600">₹{pkg.discountedPrice.toLocaleString()}</span>
+                          <span className="text-sm text-muted-foreground line-through">₹{pkg.originalPrice.toLocaleString()}</span>
+                          <Badge className="bg-green-100 text-green-800 text-xs">
+                            {Math.round((1 - pkg.discountedPrice/pkg.originalPrice) * 100)}% OFF
+                          </Badge>
+                        </>
+                      ) : (
+                        <span className="text-xl font-bold text-blue-600">Contact for Pricing</span>
+                      )}
+                    </div>
+                  </div>
+                  <Button
+                    onClick={() => {
+                      if (pkg.discountedPrice) {
+                        handleBookPackage(pkg.name, "FEVER", pkg.discountedPrice);
+                      } else {
+                        handleBookPackage(pkg.name, "FEVER", 0);
+                      }
+                      setIsFeverPanelModalOpen(false);
+                    }}
+                    className="bg-gradient-to-r from-primary to-blue-600 text-white hover:from-primary/90 hover:to-blue-700"
+                    size="sm"
+                  >
+                    Book Now
+                  </Button>
+                </div>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                  {pkg.tests.map((test, testIndex) => (
+                    <div key={testIndex} className="flex items-center gap-2 text-sm p-2 bg-white/60 rounded border">
+                      <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
                       <span className="text-gray-700">{test}</span>
                     </div>
                   ))}

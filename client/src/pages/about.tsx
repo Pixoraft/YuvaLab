@@ -29,7 +29,7 @@ const About = () => {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "About Yuva Lab Jalandhar",
-    "description": "Learn about Yuva Lab, founded by Jaltinder in 2007. Leading medical lab in Jalandhar with 18+ years of trusted healthcare services.",
+    "description": "Learn about Yuva Lab, founded by Jatinder in 2007. Leading medical lab in Jalandhar with 18+ years of trusted healthcare services.",
     "url": "https://yuvalab.com/about",
     "mainEntity": {
       "@type": "MedicalBusiness",
@@ -37,7 +37,7 @@ const About = () => {
       "foundingDate": "2007",
       "founder": {
         "@type": "Person",
-        "name": "Jaltinder"
+        "name": "Jatinder"
       }
     }
   };
@@ -45,9 +45,9 @@ const About = () => {
   return (
     <>
       <SEOHead
-        title="About Yuva Lab Jalandhar | Founded by Jaltinder 2007 | Medical Lab History"
-        description="About Yuva Lab: Founded by Jaltinder in 2007, serving Jalandhar for 18+ years. Trusted medical laboratory with 99.9% accuracy, expert team, 4-hour reports."
-        keywords={["about yuvalab diagnostics", "medical lab history jalandhar", "jaltinder founder", "trusted medical lab", "pathology lab jalandhar history", "diagnostic center about", "medical testing experience"]}
+        title="About Yuva Lab Jalandhar | Founded by Jatinder 2007 | Medical Lab History"
+        description="About Yuva Lab: Founded by Jatinder in 2007, serving Jalandhar for 18+ years. Trusted medical laboratory with 99.9% accuracy, expert team, 4-hour reports."
+        keywords={["about yuvalab diagnostics", "medical lab history jalandhar", "jatinder founder", "trusted medical lab", "pathology lab jalandhar history", "diagnostic center about", "medical testing experience"]}
         canonical="https://yuvalab.com/about"
         schema={schema}
       />
@@ -72,7 +72,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p data-testid="about-story-paragraph-1">
-                  Founded in 2007 by Jaltinder, Yuva Lab began with a simple vision: to provide accurate, reliable, and accessible medical diagnostics to the people of Jalandhar and surrounding areas. What started as a small laboratory has grown into one of the most trusted diagnostic centers in Punjab.
+                  Founded in 2007 by Jatinder, Yuva Lab began with a simple vision: to provide accurate, reliable, and accessible medical diagnostics to the people of Jalandhar and surrounding areas. What started as a small laboratory has grown into one of the most trusted diagnostic centers in Punjab.
                 </p>
                 <p data-testid="about-story-paragraph-2">
                   Over the years, we have invested heavily in cutting-edge technology and skilled professionals to ensure that our patients receive the most accurate test results possible. Our commitment to quality and patient care has made us the preferred choice for thousands of families.
