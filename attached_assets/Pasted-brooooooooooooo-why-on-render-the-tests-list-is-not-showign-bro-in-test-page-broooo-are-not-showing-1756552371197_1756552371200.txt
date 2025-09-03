@@ -1,0 +1,50 @@
+brooooooooooooo why on render the tests list is not showign bro in test page broooo  are not showing 2025-08-30T10:58:33.843630599Z 
+2025-08-30T10:58:33.843633349Z To address all issues possible (including breaking changes), run:
+2025-08-30T10:58:33.843636629Z   npm audit fix --force
+2025-08-30T10:58:33.843638639Z 
+2025-08-30T10:58:33.843640749Z Some issues need review, and may require choosing
+2025-08-30T10:58:33.843642859Z a different dependency.
+2025-08-30T10:58:33.843644849Z 
+2025-08-30T10:58:33.843647559Z Run `npm audit` for details.
+2025-08-30T10:58:33.874086332Z ==> Running build command 'npm install; npm run build'...
+2025-08-30T10:58:34.904011841Z 
+2025-08-30T10:58:34.904039412Z up to date, audited 491 packages in 935ms
+2025-08-30T10:58:34.904049882Z 
+2025-08-30T10:58:34.904052812Z 64 packages are looking for funding
+2025-08-30T10:58:34.904055742Z   run `npm fund` for details
+2025-08-30T10:58:34.930014975Z 
+2025-08-30T10:58:34.930043475Z 12 vulnerabilities (3 low, 8 moderate, 1 high)
+2025-08-30T10:58:34.930059236Z 
+2025-08-30T10:58:34.930062226Z To address issues that do not require attention, run:
+2025-08-30T10:58:34.930064056Z   npm audit fix
+2025-08-30T10:58:34.930065706Z 
+2025-08-30T10:58:34.930068376Z To address all issues possible (including breaking changes), run:
+2025-08-30T10:58:34.930070926Z   npm audit fix --force
+2025-08-30T10:58:34.930072476Z 
+2025-08-30T10:58:34.930074126Z Some issues need review, and may require choosing
+2025-08-30T10:58:34.930075996Z a different dependency.
+2025-08-30T10:58:34.930077586Z 
+2025-08-30T10:58:34.930079736Z Run `npm audit` for details.
+2025-08-30T10:58:35.083528502Z 
+2025-08-30T10:58:35.083552403Z > rest-express@1.0.0 build
+2025-08-30T10:58:35.083556083Z > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+2025-08-30T10:58:35.083559713Z 
+2025-08-30T10:58:35.26976312Z vite v5.4.19 building for production...
+2025-08-30T10:58:35.316586378Z transforming...
+2025-08-30T10:58:35.572233652Z Browserslist: browsers data (caniuse-lite) is 10 months old. Please run:
+2025-08-30T10:58:35.572257483Z   npx update-browserslist-db@latest
+2025-08-30T10:58:35.572261123Z   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-30T10:58:38.970300537Z ✓ 1743 modules transformed.
+2025-08-30T10:58:39.211844612Z rendering chunks...
+2025-08-30T10:58:39.222766202Z computing gzip size...
+2025-08-30T10:58:39.236989304Z ../dist/public/index.html                           1.28 kB │ gzip:   0.66 kB
+2025-08-30T10:58:39.237092907Z ../dist/public/assets/family-hero-L43kDZb8.png  3,548.76 kB
+2025-08-30T10:58:39.237129618Z ../dist/public/assets/index-gYiqsyHe.css          106.40 kB │ gzip:  17.13 kB
+2025-08-30T10:58:39.23724304Z ../dist/public/assets/index-DmuWjc8J.js           474.28 kB │ gzip: 142.48 kB
+2025-08-30T10:58:39.237559108Z ✓ built in 3.95s
+2025-08-30T10:58:39.288263873Z 
+2025-08-30T10:58:39.288284123Z   dist/index.js  22.1kb
+2025-08-30T10:58:39.288287413Z 
+2025-08-30T10:58:39.288290203Z ⚡ Done in 4ms
+2025-08-30T10:58:41.052836196Z ==> Uploading build...
+2025-08-30T10:58:47.918690832Z ==> Your site is live 🎉and in about us page the below detaisl are incoorect so take form footer bro

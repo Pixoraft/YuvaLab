@@ -1,0 +1,50 @@
+bro stilll showign no result found 2025-08-30T02:24:02.687920061Z 
+2025-08-30T02:24:02.687923131Z To address all issues possible (including breaking changes), run:
+2025-08-30T02:24:02.687926161Z   npm audit fix --force
+2025-08-30T02:24:02.687928411Z 
+2025-08-30T02:24:02.687930481Z Some issues need review, and may require choosing
+2025-08-30T02:24:02.687932631Z a different dependency.
+2025-08-30T02:24:02.687934571Z 
+2025-08-30T02:24:02.687937342Z Run npm audit for details.
+2025-08-30T02:24:02.72113022Z ==> Running build command 'npm install; npm run build'...
+2025-08-30T02:24:03.869959313Z 
+2025-08-30T02:24:03.869985904Z up to date, audited 491 packages in 1s
+2025-08-30T02:24:03.869993024Z 
+2025-08-30T02:24:03.870002774Z 64 packages are looking for funding
+2025-08-30T02:24:03.870006824Z   run npm fund for details
+2025-08-30T02:24:03.900654257Z 
+2025-08-30T02:24:03.900674867Z 12 vulnerabilities (3 low, 8 moderate, 1 high)
+2025-08-30T02:24:03.900691547Z 
+2025-08-30T02:24:03.900694948Z To address issues that do not require attention, run:
+2025-08-30T02:24:03.900697188Z   npm audit fix
+2025-08-30T02:24:03.900699148Z 
+2025-08-30T02:24:03.900701958Z To address all issues possible (including breaking changes), run:
+2025-08-30T02:24:03.900704828Z   npm audit fix --force
+2025-08-30T02:24:03.900706808Z 
+2025-08-30T02:24:03.900708888Z Some issues need review, and may require choosing
+2025-08-30T02:24:03.900711058Z a different dependency.
+2025-08-30T02:24:03.900713018Z 
+2025-08-30T02:24:03.900715778Z Run npm audit for details.
+2025-08-30T02:24:04.049539776Z 
+2025-08-30T02:24:04.049564377Z > rest-express@1.0.0 build
+2025-08-30T02:24:04.049568467Z > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+2025-08-30T02:24:04.049572337Z 
+2025-08-30T02:24:04.234094078Z vite v5.4.19 building for production...
+2025-08-30T02:24:04.281861783Z transforming...
+2025-08-30T02:24:04.521279333Z Browserslist: browsers data (caniuse-lite) is 10 months old. Please run:
+2025-08-30T02:24:04.521301184Z   npx update-browserslist-db@latest
+2025-08-30T02:24:04.521305044Z   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-30T02:24:07.874077511Z ✓ 1743 modules transformed.
+2025-08-30T02:24:08.117160956Z rendering chunks...
+2025-08-30T02:24:08.127355889Z computing gzip size...
+2025-08-30T02:24:08.142010768Z ../dist/public/index.html                           1.24 kB │ gzip:   0.64 kB
+2025-08-30T02:24:08.14208955Z ../dist/public/assets/family-hero-L43kDZb8.png  3,548.76 kB
+2025-08-30T02:24:08.142128581Z ../dist/public/assets/index-D0sB6vCn.css          104.90 kB │ gzip:  16.87 kB
+2025-08-30T02:24:08.142261894Z ../dist/public/assets/index-B80mS5rx.js           475.64 kB │ gzip: 143.17 kB
+2025-08-30T02:24:08.142527691Z ✓ built in 3.89s
+2025-08-30T02:24:08.192554815Z 
+2025-08-30T02:24:08.192575415Z   dist/index.js  20.2kb
+2025-08-30T02:24:08.192578605Z 
+2025-08-30T02:24:08.192581035Z ⚡ Done in 4ms
+2025-08-30T02:24:09.366357024Z ==> Uploading build...
+2025-08-30T02:24:16.234700237Z ==> Your site is live 🎉

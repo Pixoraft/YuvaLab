@@ -1,0 +1,51 @@
+bro i hosted on render bro but the tests are shwoing not found and in console is aslo clean bro and bro if i go to any page i can see this under nav bar Home>
+Services , in blog is not showing and alll other pages ecpect home page also bro pls remove this and thisi si console 2025-08-30T02:10:08.681300482Z 
+2025-08-30T02:10:08.681305942Z To address all issues possible (including breaking changes), run:
+2025-08-30T02:10:08.681311622Z   npm audit fix --force
+2025-08-30T02:10:08.681316222Z 
+2025-08-30T02:10:08.681321152Z Some issues need review, and may require choosing
+2025-08-30T02:10:08.681325982Z a different dependency.
+2025-08-30T02:10:08.681330672Z 
+2025-08-30T02:10:08.681336263Z Run npm audit for details.
+2025-08-30T02:10:08.737593982Z ==> Running build command 'npm install; npm run build'...
+2025-08-30T02:10:10.696218653Z 
+2025-08-30T02:10:10.696255264Z up to date, audited 491 packages in 2s
+2025-08-30T02:10:10.696260714Z 
+2025-08-30T02:10:10.696286194Z 64 packages are looking for funding
+2025-08-30T02:10:10.696312405Z   run npm fund for details
+2025-08-30T02:10:10.74557928Z 
+2025-08-30T02:10:10.74561769Z 12 vulnerabilities (3 low, 8 moderate, 1 high)
+2025-08-30T02:10:10.74562171Z 
+2025-08-30T02:10:10.74562546Z To address issues that do not require attention, run:
+2025-08-30T02:10:10.74562934Z   npm audit fix
+2025-08-30T02:10:10.74563225Z 
+2025-08-30T02:10:10.74563666Z To address all issues possible (including breaking changes), run:
+2025-08-30T02:10:10.74564021Z   npm audit fix --force
+2025-08-30T02:10:10.7456432Z 
+2025-08-30T02:10:10.74564648Z Some issues need review, and may require choosing
+2025-08-30T02:10:10.745649581Z a different dependency.
+2025-08-30T02:10:10.745652431Z 
+2025-08-30T02:10:10.745655911Z Run npm audit for details.
+2025-08-30T02:10:11.002393075Z 
+2025-08-30T02:10:11.002423276Z > rest-express@1.0.0 build
+2025-08-30T02:10:11.002427916Z > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+2025-08-30T02:10:11.002434386Z 
+2025-08-30T02:10:11.371302754Z vite v5.4.19 building for production...
+2025-08-30T02:10:11.463911104Z transforming...
+2025-08-30T02:10:11.901823424Z Browserslist: browsers data (caniuse-lite) is 10 months old. Please run:
+2025-08-30T02:10:11.901854744Z   npx update-browserslist-db@latest
+2025-08-30T02:10:11.901859124Z   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-30T02:10:17.635985052Z ✓ 1744 modules transformed.
+2025-08-30T02:10:18.06630828Z rendering chunks...
+2025-08-30T02:10:18.084193511Z computing gzip size...
+2025-08-30T02:10:18.10925226Z ../dist/public/index.html                           1.24 kB │ gzip:   0.65 kB
+2025-08-30T02:10:18.109395762Z ../dist/public/assets/family-hero-L43kDZb8.png  3,548.76 kB
+2025-08-30T02:10:18.109507463Z ../dist/public/assets/index-D0sB6vCn.css          104.90 kB │ gzip:  16.87 kB
+2025-08-30T02:10:18.109724896Z ../dist/public/assets/index-BNDtSWmo.js           477.17 kB │ gzip: 143.65 kB
+2025-08-30T02:10:18.110244663Z ✓ built in 6.70s
+2025-08-30T02:10:18.194740713Z 
+2025-08-30T02:10:18.194765674Z   dist/index.js  14.9kb
+2025-08-30T02:10:18.194771614Z 
+2025-08-30T02:10:18.194777244Z ⚡ Done in 7ms
+2025-08-30T02:10:20.371501663Z ==> Uploading build...
+2025-08-30T02:10:28.060291875Z ==> Your site is live 🎉
