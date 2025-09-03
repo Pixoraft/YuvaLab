@@ -31,10 +31,6 @@ const HeroSection = () => {
                 <span className="bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
                   YuvaLab
                 </span>
-                <br />
-                <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-blue-100 font-medium">
-                  LARC Jatinder
-                </span>
               </h1>
               <div className="absolute -top-8 -left-8 w-16 h-16 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-2xl rotate-12 opacity-20 animate-pulse"></div>
             </div>

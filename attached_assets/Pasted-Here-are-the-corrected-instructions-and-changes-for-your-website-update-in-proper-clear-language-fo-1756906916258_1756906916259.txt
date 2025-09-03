@@ -1,0 +1,147 @@
+Here are the corrected instructions and changes for your website update in proper, clear language for Replit AI and developers. All spelling and medical terminology has been standardized, so the updates are easy for a developer or medical site admin to implement:
+
+Homepage (Hero Section)
+Remove "LARC" completely from the hero section of the homepage.
+
+Packages Page
+Update Package Names and Details
+1. Monsoon Fever Panel
+Change package name:
+From: Monsoon Fever Advance
+To: Monsoon Fever Panel
+Update Panel Box List:
+Replace the list:
+4hr Reports
+Dengue NS1 Antigen
+Malarial Antigen
+With this new list:
+CBC
+Widal
+MP
+Typhoid
+Urine Examination
+Price Update:
+Show normal price as ₹1050, but display offer price as ₹800 only.
+
+2. Fever Panel Advanced
+Edit Package Name:
+Keep name as "Fever Panel Advanced", but update the test list.
+Update Panel Box List:
+Replace current tests:
+Dengue (IgG, IgM)
+Typhoid Test
+Liver Profile
+With this new list:
+CBC
+Widal
+MP
+LT_T
+CPP
+Dengue
+MSG
+IgG
+IgM
+Price Update:
+Show normal price as ₹2200, but display offer price as ₹1499.
+
+3. YL Packages (Formerly GD Fateh Packages)
+Change Package Name:
+From: GD Fateh Packages
+To: YL Packages
+Update Package Option List and Tests:
+Remove titles for "Thyroid Profile" and "Liver & Kidney Profile", only display:
+YL 1.0 (₹1000)
+Glucose
+Lipid Profile
+Liver Profile
+Kidney Basic Profile
+Electrolytes
+Calcium
+T3 T4 TSH
+Complete Urine Examination
+Complete Blood Picture
+
+and bro from YL Feteh book remove the Feteh bro and add a another button more detaisl bro on right side bro when user hit it show a popup bro where alll these testest are presnt in good format 
+
+YL 1.0 (dsicounted Price : ₹1000 , ord : 1800 )
+Glucose
+Lipid Profile
+Liver Profile
+Kidney Basic Profile
+Electrolytes
+Calcium
+T3 T4 TSH
+Complete Urine Examination
+Complete Blood Picture
+
+YL 2.0 discounted 1200 , org 2600
+Glucose
+Lipid Profile
+Liver Profile
+Kidney Basic Profile
+Electrolytes
+Calcium
+T3 T4 TSH
+Complete Urine Examination
+Complete Blood Picture
+HBA1C
+ESR
+Iron Profile
+
+YL 3.0  Dicounted 2200 , org 3500
+Glucose
+Lipid Profile
+Liver Profile
+Kidney Basic Profile
+Electrolytes
+Calcium
+T3 T4 TSH
+Complete Urine Examination
+Complete Blood Picture
+HBA1C
+ESR
+Iron Profile
+Vitamin D
+Vitamin B12
+RA Factor
+Testo Total
+
+YL 4.0 dicounted Price 2500 , org 4000
+Glucose
+Lipid Profile
+Liver Profile
+Kidney Basic Profile
+Electrolytes
+Calcium
+T3 T4 TSH
+Complete Urine Examination
+Complete Blood Picture
+HBA1C
+ESR
+Iron Profile
+Vitamin D
+Vitamin B12
+RA Factor
+Testo Total
+CA 15.3/PSA Total
+
+YL 5.0  discounted  price 2600 , org 4599
+Glucose
+Lipid Profile
+Liver Profile
+Kidney Basic Profile
+Electrolytes
+Calcium
+T3 T4 TSH
+Complete Urine Examination
+Complete Blood Picture
+HBA1C
+ESR
+Iron Profile
+Lipase
+Amylase
+
+
+ADN BRO ADD bOOK BUTTTON  so user go direct to whatsapp with premaind message bro about the package bro 
+
+

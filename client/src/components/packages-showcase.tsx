@@ -1,36 +1,146 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import { useState } from "react";
 
 const PackagesShowcase = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
   const handleBookPackage = (
     packageTitle: string,
     packageCode: string,
     packagePrice: number,
   ) => {
     const phone = "919888772209";
-    const message = `Hello! I would like to book ${packageTitle} (${packageCode}) - ₹${packagePrice} at YuvaLab - LARC Jatinder. Please confirm availability and home collection.`;
+    const message = `Hello! I would like to book ${packageTitle} (${packageCode}) - ₹${packagePrice} at YuvaLab. Please confirm availability and home collection.`;
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
+  
+  const ylPackageDetails = [
+    {
+      name: "YL 1.0",
+      discountedPrice: 1000,
+      originalPrice: 1800,
+      tests: [
+        "Glucose",
+        "Lipid Profile",
+        "Liver Profile",
+        "Kidney Basic Profile",
+        "Electrolytes",
+        "Calcium",
+        "T3 T4 TSH",
+        "Complete Urine Examination",
+        "Complete Blood Picture"
+      ]
+    },
+    {
+      name: "YL 2.0",
+      discountedPrice: 1200,
+      originalPrice: 2600,
+      tests: [
+        "Glucose",
+        "Lipid Profile",
+        "Liver Profile",
+        "Kidney Basic Profile",
+        "Electrolytes",
+        "Calcium",
+        "T3 T4 TSH",
+        "Complete Urine Examination",
+        "Complete Blood Picture",
+        "HBA1C",
+        "ESR",
+        "Iron Profile"
+      ]
+    },
+    {
+      name: "YL 3.0",
+      discountedPrice: 2200,
+      originalPrice: 3500,
+      tests: [
+        "Glucose",
+        "Lipid Profile",
+        "Liver Profile",
+        "Kidney Basic Profile",
+        "Electrolytes",
+        "Calcium",
+        "T3 T4 TSH",
+        "Complete Urine Examination",
+        "Complete Blood Picture",
+        "HBA1C",
+        "ESR",
+        "Iron Profile",
+        "Vitamin D",
+        "Vitamin B12",
+        "RA Factor",
+        "Testo Total"
+      ]
+    },
+    {
+      name: "YL 4.0",
+      discountedPrice: 2500,
+      originalPrice: 4000,
+      tests: [
+        "Glucose",
+        "Lipid Profile",
+        "Liver Profile",
+        "Kidney Basic Profile",
+        "Electrolytes",
+        "Calcium",
+        "T3 T4 TSH",
+        "Complete Urine Examination",
+        "Complete Blood Picture",
+        "HBA1C",
+        "ESR",
+        "Iron Profile",
+        "Vitamin D",
+        "Vitamin B12",
+        "RA Factor",
+        "Testo Total",
+        "CA 15.3/PSA Total"
+      ]
+    },
+    {
+      name: "YL 5.0",
+      discountedPrice: 2600,
+      originalPrice: 4599,
+      tests: [
+        "Glucose",
+        "Lipid Profile",
+        "Liver Profile",
+        "Kidney Basic Profile",
+        "Electrolytes",
+        "Calcium",
+        "T3 T4 TSH",
+        "Complete Urine Examination",
+        "Complete Blood Picture",
+        "HBA1C",
+        "ESR",
+        "Iron Profile",
+        "Lipase",
+        "Amylase"
+      ]
+    }
+  ];
 
   const packages = [
     {
       id: "mfpa",
-      title: "Monsoon Fever Panel Advanced",
+      title: "Monsoon Fever Panel",
       code: "MFPA",
       description:
         "Comprehensive fever panel with fast 4-hour reporting and home collection",
       tests: 32,
-      originalPrice: 3999,
-      currentPrice: 2899,
-      discount: 28,
+      originalPrice: 1050,
+      currentPrice: 800,
+      discount: 24,
       popular: false,
       features: [
-        "4hr Reports",
-        "Dengue NS1 Antigen",
-        "Malarial Antigen",
-        "CBC (24 parameters)",
-        "Home Collection",
+        "CBC",
+        "Widal",
+        "MP",
+        "Typhoid",
+        "Urine Examination",
       ],
       reportTime: "4 Hours",
     },
@@ -41,42 +151,48 @@ const PackagesShowcase = () => {
       description:
         "Advanced fever analysis with comprehensive liver profile included",
       tests: 36,
-      originalPrice: 4999,
-      currentPrice: 3599,
-      discount: 28,
+      originalPrice: 2200,
+      currentPrice: 1499,
+      discount: 32,
       popular: true,
       features: [
-        "Dengue (IgG, IgM)",
-        "Typhoid Test",
-        "Liver Profile",
-        "C-reactive Protein",
-        "Home Collection",
+        "CBC",
+        "Widal",
+        "MP",
+        "LT_T",
+        "CPP",
+        "Dengue",
+        "MSG",
+        "IgG",
+        "IgM",
       ],
       reportTime: "Same Day",
     },
     {
-      id: "fateh",
-      title: "GD Fateh Packages",
-      code: "YL FATEH",
+      id: "yl",
+      title: "YL Packages",
+      code: "YL",
       description:
         "Complete health checkup packages with multiple test options",
       tests: "63-69",
-      originalPrice: 2999,
-      currentPrice: 1500,
-      discount: 50,
+      originalPrice: 4599,
+      currentPrice: 1000,
+      discount: 78,
       popular: false,
       features: [
-        "3 Package Options",
-        "Thyroid Profile",
+        "5 Package Options",
+        "T3 T4 TSH",
         "Liver & Kidney Profile",
         "Lipid Profile",
-        "Iron Studies",
+        "Complete Blood Picture",
       ],
       reportTime: "24 Hours",
       subPackages: [
-        { name: "YL Fateh 1.1", tests: 63, price: 1000, originalPrice: 1800 },
-        { name: "YL Fateh 1.2", tests: 67, price: 1500, originalPrice: 2200 },
-        { name: "YL Fateh 1.3", tests: 69, price: 2000, originalPrice: 2999 },
+        { name: "YL 1.0", tests: 9, price: 1000, originalPrice: 1800 },
+        { name: "YL 2.0", tests: 12, price: 1200, originalPrice: 2600 },
+        { name: "YL 3.0", tests: 16, price: 2200, originalPrice: 3500 },
+        { name: "YL 4.0", tests: 17, price: 2500, originalPrice: 4000 },
+        { name: "YL 5.0", tests: 13, price: 2600, originalPrice: 4599 },
       ],
     },
   ];
@@ -182,8 +298,29 @@ const PackagesShowcase = () => {
                     </div>
                   )}
 
-                  {/* Sub-packages for Fateh */}
-                  {pkg.subPackages && (
+                  {/* Sub-packages for YL Packages */}
+                  {pkg.subPackages && pkg.id === "yl" && (
+                    <div className="mb-4 p-3 bg-gradient-to-r from-muted/30 to-muted/50 rounded-lg border border-muted">
+                      <div className="flex justify-between items-center mb-2">
+                        <h4 className="text-sm font-semibold text-primary">
+                          Package Options:
+                        </h4>
+                        <Button
+                          onClick={() => setIsModalOpen(true)}
+                          variant="outline"
+                          size="sm"
+                          className="text-xs px-2 py-1 h-6"
+                        >
+                          More Details
+                        </Button>
+                      </div>
+                      <div className="text-sm text-muted-foreground">
+                        {pkg.subPackages[0].name} (Starting from ₹{Math.min(...pkg.subPackages.map(p => p.price)).toLocaleString()})
+                      </div>
+                    </div>
+                  )}
+                  {/* Sub-packages for other packages */}
+                  {pkg.subPackages && pkg.id !== "yl" && (
                     <div className="mb-4 p-3 bg-gradient-to-r from-muted/30 to-muted/50 rounded-lg border border-muted">
                       <h4 className="text-sm font-semibold mb-2 text-primary">
                         Package Options:
@@ -266,6 +403,56 @@ const PackagesShowcase = () => {
           ))}
         </div>
       </div>
+      
+      {/* YL Packages Details Modal */}
+      <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
+        <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle className="text-2xl font-bold text-primary mb-2">YL Packages - Complete Details</DialogTitle>
+            <DialogDescription className="text-sm text-muted-foreground">
+              Choose from our comprehensive health checkup packages
+            </DialogDescription>
+          </DialogHeader>
+          
+          <div className="grid gap-6 mt-4">
+            {ylPackageDetails.map((pkg, index) => (
+              <div key={index} className="border rounded-lg p-4 bg-gradient-to-r from-blue-50/50 to-white">
+                <div className="flex justify-between items-start mb-3">
+                  <div>
+                    <h3 className="text-lg font-bold text-primary">{pkg.name}</h3>
+                    <div className="flex items-center gap-2 mt-1">
+                      <span className="text-xl font-bold text-green-600">₹{pkg.discountedPrice.toLocaleString()}</span>
+                      <span className="text-sm text-muted-foreground line-through">₹{pkg.originalPrice.toLocaleString()}</span>
+                      <Badge className="bg-green-100 text-green-800 text-xs">
+                        {Math.round((1 - pkg.discountedPrice/pkg.originalPrice) * 100)}% OFF
+                      </Badge>
+                    </div>
+                  </div>
+                  <Button
+                    onClick={() => {
+                      handleBookPackage(pkg.name, "YL", pkg.discountedPrice);
+                      setIsModalOpen(false);
+                    }}
+                    className="bg-gradient-to-r from-primary to-blue-600 text-white hover:from-primary/90 hover:to-blue-700"
+                    size="sm"
+                  >
+                    Book Now
+                  </Button>
+                </div>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                  {pkg.tests.map((test, testIndex) => (
+                    <div key={testIndex} className="flex items-center gap-2 text-sm p-2 bg-white/60 rounded border">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700">{test}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </DialogContent>
+      </Dialog>
     </section>
   );
 };
