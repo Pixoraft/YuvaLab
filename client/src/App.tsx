@@ -14,6 +14,8 @@ import About from "@/pages/about";
 import Contact from "@/pages/contact";
 import Blog from "@/pages/blog";
 import BlogPost from "@/pages/blog-post";
+import PrivacyPolicy from "@/pages/privacy-policy";
+import TermsConditions from "@/pages/terms-conditions";
 import NotFound from "@/pages/not-found";
 import useScrollToTop from "@/hooks/use-scroll-to-top";
 
@@ -33,6 +35,8 @@ function Router() {
         <Route path="/contact" component={Contact} />
         <Route path="/blog" component={Blog} />
         <Route path="/blog/:slug" component={BlogPost} />
+        <Route path="/privacy-policy" component={PrivacyPolicy} />
+        <Route path="/terms-conditions" component={TermsConditions} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

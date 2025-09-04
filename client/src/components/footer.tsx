@@ -77,9 +77,8 @@ const Footer = () => {
             &copy; 2025 Yuva Lab. All rights reserved.
           </p>
           <div className="flex flex-wrap justify-center sm:justify-end space-x-4 sm:space-x-6 mt-0">
-            <a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-privacy">Privacy Policy</a>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-terms">Terms of Service</a>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-cookies">Cookie Policy</a>
+            <Link href="/privacy-policy" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-privacy">Privacy Policy</Link>
+            <Link href="/terms-conditions" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-terms">Terms & Conditions</Link>
           </div>
         </div>
       </div>
