@@ -9,7 +9,7 @@ const Packages = () => {
     "@type": "Product",
     "name": "Health Packages - Yuva Lab",
     "description": "Comprehensive health checkup packages in Jalandhar with blood tests, health screenings, and diagnostic services at affordable prices.",
-    "url": "https://yuvalab.com/packages",
+    "url": "https://yuvalab.in/packages",
     "brand": {
       "@type": "Brand",
       "name": "Yuva Lab"
@@ -40,7 +40,7 @@ const Packages = () => {
         title="Health Packages Jalandhar | Complete Health Checkup | Yuva Lab"
         description="Affordable health packages in Jalandhar. Complete health checkups, blood test packages, preventive health screenings. Home collection available. Book: +91-9888772209"
         keywords={["health packages jalandhar", "health checkup packages", "complete health checkup", "blood test packages", "preventive health screening", "annual health checkup", "medical packages jalandhar", "health screening packages"]}
-        canonical="https://yuvalab.com/packages"
+        canonical="https://yuvalab.in/packages"
         schema={schema}
       />
       <div className="pt-20" data-testid="packages-page">

@@ -57,14 +57,14 @@ const BlogPost = () => {
       "name": "Yuva Lab",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://yuvalab.com/logo.png"
+        "url": "https://yuvalab.in/logo.png"
       }
     },
     "datePublished": new Date(post.date).toISOString(),
     "dateModified": new Date(post.date).toISOString(),
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://yuvalab.com/blog/${post.slug}`
+      "@id": `https://yuvalab.in/blog/${post.slug}`
     },
     "keywords": post.keywords.join(", "),
     "articleSection": post.category,
@@ -93,7 +93,7 @@ const BlogPost = () => {
         keywords={post.keywords}
         ogImage={post.image}
         ogType="article"
-        canonical={`https://yuvalab.com/blog/${post.slug}`}
+        canonical={`https://yuvalab.in/blog/${post.slug}`}
         schema={schema}
       />
       

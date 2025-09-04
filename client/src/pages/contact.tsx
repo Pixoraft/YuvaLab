@@ -12,7 +12,7 @@ const Contact = () => {
     "@type": "ContactPage",
     "name": "Contact Yuva Lab Jalandhar",
     "description": "Contact Yuva Lab for medical tests, health checkups, and home collection services in Jalandhar. Call +91-9888772209 for appointments.",
-    "url": "https://yuvalab.com/contact",
+    "url": "https://yuvalab.in/contact",
     "mainEntity": {
       "@type": "MedicalBusiness",
       "name": "Yuva Lab",
@@ -35,7 +35,7 @@ const Contact = () => {
         title="Contact Yuva Lab Jalandhar | Medical Lab | Book Tests | +91-9888772209"
         description="Contact Yuva Lab for medical tests in Jalandhar. Home collection, 4-hour reports, health packages. Email yuvalab24@gmail.com or call +91-9888772209."
         keywords={["contact yuvalab diagnostics", "medical lab contact jalandhar", "book test jalandhar", "pathology lab contact", "diagnostic center jalandhar contact", "home collection booking", "medical test appointment", "lab test booking jalandhar"]}
-        canonical="https://yuvalab.com/contact"
+        canonical="https://yuvalab.in/contact"
         schema={schema}
       />
       <div className="pt-20" data-testid="contact-page">

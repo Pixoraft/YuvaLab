@@ -5,12 +5,12 @@
         
   <!-- Homepage - Highest Priority -->
   <url>
-    <loc>https://yuvalab.com/</loc>
+    <loc>https://yuvalab.in/</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://yuvalab.com/newlogo.jpeg</image:loc>
+      <image:loc>https://yuvalab.in/newlogo.jpeg</image:loc>
       <image:caption>YuvaLab Diagnostics - Best Medical Lab in Jalandhar</image:caption>
       <image:title>YuvaLab Diagnostics Logo</image:title>
     </image:image>
@@ -18,7 +18,7 @@
 
   <!-- Services Page - High Priority -->
   <url>
-    <loc>https://yuvalab.com/services</loc>
+    <loc>https://yuvalab.in/services</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -26,7 +26,7 @@
 
   <!-- Tests Page - High Priority for Local Search -->
   <url>
-    <loc>https://yuvalab.com/tests</loc>
+    <loc>https://yuvalab.in/tests</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -34,7 +34,7 @@
 
   <!-- Health Packages - High Commercial Value -->
   <url>
-    <loc>https://yuvalab.com/packages</loc>
+    <loc>https://yuvalab.in/packages</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -42,7 +42,7 @@
 
   <!-- About Page - Trust & Authority -->
   <url>
-    <loc>https://yuvalab.com/about</loc>
+    <loc>https://yuvalab.in/about</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -50,7 +50,7 @@
 
   <!-- Contact Page - Local SEO Important -->
   <url>
-    <loc>https://yuvalab.com/contact</loc>
+    <loc>https://yuvalab.in/contact</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -58,79 +58,69 @@
 
   <!-- Blog Main Page -->
   <url>
-    <loc>https://yuvalab.com/blog</loc>
+    <loc>https://yuvalab.in/blog</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
 
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://yuvalab.in/privacy-policy</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms and Conditions -->
+  <url>
+    <loc>https://yuvalab.in/terms-conditions</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
   <!-- Individual Blog Posts -->
   <url>
-    <loc>https://yuvalab.com/blog/understanding-blood-test-results</loc>
+    <loc>https://yuvalab.in/blog/understanding-blood-test-results</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://yuvalab.com/blog/importance-of-regular-health-checkups</loc>
+    <loc>https://yuvalab.in/blog/importance-of-regular-health-checkups</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://yuvalab.com/blog/thyroid-function-tests-explained</loc>
+    <loc>https://yuvalab.in/blog/thyroid-function-tests-explained</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://yuvalab.com/blog/diabetes-screening-and-management</loc>
+    <loc>https://yuvalab.in/blog/diabetes-screening-and-management</loc>
     <lastmod>2025-01-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://yuvalab.com/blog/vitamin-d-deficiency-symptoms</loc>
+    <loc>https://yuvalab.in/blog/vitamin-d-deficiency-symptoms</loc>
     <lastmod>2025-01-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://yuvalab.com/blog/liver-function-test-guide</loc>
+    <loc>https://yuvalab.in/blog/liver-function-test-guide</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-
-  <!-- Additional Important Pages for Medical Lab SEO -->
-  
-  <!-- Specific Test Categories (Future Enhancement) -->
-  <!--
-  <url>
-    <loc>https://yuvalab.com/tests/blood-tests</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuvalab.com/tests/thyroid-tests</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuvalab.com/tests/diabetes-tests</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  -->
 
 </urlset>

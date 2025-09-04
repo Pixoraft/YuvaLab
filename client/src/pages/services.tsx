@@ -9,7 +9,7 @@ const Services = () => {
     "@type": "MedicalBusiness",
     "name": "Yuva Lab Services",
     "description": "Comprehensive medical diagnostic services in Jalandhar including blood tests, health checkups, hormone tests, genetic testing with home collection.",
-    "url": "https://yuvalab.com/services",
+    "url": "https://yuvalab.in/services",
     "provider": {
       "@type": "MedicalBusiness",
       "name": "Yuva Lab"
@@ -22,7 +22,7 @@ const Services = () => {
         title="Medical Services Jalandhar | Blood Tests | Health Checkups | Yuva Lab"
         description="Complete medical diagnostic services in Jalandhar. Blood tests, health packages, hormone tests, genetic testing. Home collection available. Book: +91-9888772209"
         keywords={["medical services jalandhar", "blood test services", "health checkup services", "diagnostic services jalandhar", "pathology services", "lab services near me", "medical testing services", "hormone test services", "genetic testing jalandhar"]}
-        canonical="https://yuvalab.com/services"
+        canonical="https://yuvalab.in/services"
         schema={schema}
       />
       <div className="pt-20" data-testid="services-page">

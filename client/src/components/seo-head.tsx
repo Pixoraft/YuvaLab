@@ -48,6 +48,7 @@ const SEOHead = ({
     updateMetaTag('og:description', description, true);
     updateMetaTag('og:type', ogType, true);
     updateMetaTag('og:image', ogImage, true);
+    updateMetaTag('og:url', canonical || window.location.href, true);
     updateMetaTag('og:site_name', 'Yuva Lab', true);
     updateMetaTag('og:locale', 'en_IN', true);
     

@@ -15,10 +15,10 @@ const LocalBusinessSchema = () => {
         "jobTitle": "Founder & Director"
       },
       "foundingDate": "2007",
-      "url": "https://yuvalab.com",
-      "logo": "https://yuvalab.com/newlogo.jpeg",
+      "url": "https://yuvalab.in",
+      "logo": "https://yuvalab.in/newlogo.jpeg",
       "image": [
-        "https://yuvalab.com/newlogo.jpeg",
+        "https://yuvalab.in/newlogo.jpeg",
         "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630"
       ],
       "telephone": ["+91-9888772209", "+91-7009090378"],
@@ -179,9 +179,9 @@ const LocalBusinessSchema = () => {
       "parentOrganization": {
         "@type": "Organization",
         "name": "Yuva Lab",
-        "sameAs": "https://yuvalab.com"
+        "sameAs": "https://yuvalab.in"
       },
-      "sameAs": ["https://yuvalab.com"],
+      "sameAs": ["https://yuvalab.in"],
       "contactPoint": [
         {
           "@type": "ContactPoint",

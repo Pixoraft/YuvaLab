@@ -17,18 +17,18 @@ const Blog = () => {
     "@type": "Blog",
     "name": "Yuva Lab Health Blog",
     "description": "Expert health insights, medical tips, and diagnostic information from Yuva Lab's medical professionals in Jalandhar.",
-    "url": "https://yuvalab.com/blog",
+    "url": "https://yuvalab.in/blog",
     "publisher": {
       "@type": "Organization",
       "name": "Yuva Lab",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://yuvalab.com/logo.png"
+        "url": "https://yuvalab.in/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://yuvalab.com/blog"
+      "@id": "https://yuvalab.in/blog"
     }
   };
 
@@ -38,7 +38,7 @@ const Blog = () => {
         title="Health Blog | Expert Medical Insights - Yuva Lab Jalandhar"
         description="Expert health insights, medical tips, and diagnostic information from Yuva Lab's medical professionals in Jalandhar. Learn about blood tests, health checkups, and more."
         keywords={["health blog", "medical tips", "blood test information", "health checkup", "Jalandhar medical blog", "diagnostic insights"]}
-        canonical="https://yuvalab.com/blog"
+        canonical="https://yuvalab.in/blog"
         schema={schema}
       />
       

@@ -1,5 +1,14 @@
+import SEOHead from "@/components/seo-head";
+
 export default function TermsConditions() {
   return (
+    <>
+      <SEOHead
+        title="Terms & Conditions | YuvaLab Diagnostics | Medical Lab Jalandhar"
+        description="Terms and Conditions for YuvaLab Diagnostics - trusted medical lab in Jalandhar. Read our service terms and medical testing policies."
+        keywords={["terms conditions", "yuvalab terms", "medical lab terms", "diagnostic services terms", "lab testing policies"]}
+        canonical="https://yuvalab.in/terms-conditions"
+      />
     <div className="min-h-screen bg-background">
         <div className="max-w-4xl mx-auto px-4 py-16 pt-20">
           <div className="prose prose-lg max-w-none">
@@ -142,5 +151,6 @@ export default function TermsConditions() {
           </div>
         </div>
       </div>
+    </>
   );
 }

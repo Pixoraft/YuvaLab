@@ -44,7 +44,7 @@ const Breadcrumb = ({ items }: BreadcrumbProps) => {
         "@type": "ListItem",
         "position": index + 1,
         "name": item.label,
-        "item": `https://yuvalab.com${item.href || location}`
+        "item": `https://yuvalab.in${item.href || location}`
       }))
     };
 

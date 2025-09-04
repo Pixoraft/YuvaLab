@@ -77,7 +77,7 @@ const Tests = () => {
     "@type": "Service",
     "name": "Medical Tests - YuvaLab Diagnostics",
     "description": "500+ medical tests available in Jalandhar including blood tests, hormone tests, health screenings with 4-hour reports and home collection.",
-    "url": "https://yuvalab.com/tests",
+    "url": "https://yuvalab.in/tests",
     "provider": {
       "@type": "MedicalBusiness",
       "name": "YuvaLab Diagnostics",
@@ -98,7 +98,7 @@ const Tests = () => {
         title="Medical Tests Jalandhar | Blood Tests | Lab Tests Near Me | YuvaLab Diagnostics"
         description="500+ medical tests in Jalandhar. Blood tests, CBC, thyroid, diabetes, liver function tests. 4-hour reports, home collection. Book online: +91-9888772209"
         keywords={["medical tests jalandhar", "blood tests jalandhar", "lab tests near me", "pathology tests", "diagnostic tests jalandhar", "CBC test jalandhar", "thyroid test", "diabetes test", "liver function test", "kidney function test", "hormone tests", "vitamin tests", "health tests jalandhar"]}
-        canonical="https://yuvalab.com/tests"
+        canonical="https://yuvalab.in/tests"
         schema={schema}
       />
       <div className="pt-14 sm:pt-16 md:pt-20" data-testid="tests-page">

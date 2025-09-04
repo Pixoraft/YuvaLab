@@ -16,7 +16,7 @@ const Home = () => {
     "@type": "WebPage",
     "name": "Yuva Lab - #1 Medical Lab in Jalandhar | Home Collection",
     "description": "Leading medical diagnostics center in Jalandhar since 2007. 500+ tests, 4-hour reports, free home collection. Book blood tests, health checkups online.",
-    "url": "https://yuvalab.com",
+    "url": "https://yuvalab.in",
     "mainEntity": {
       "@type": "MedicalBusiness",
       "name": "Yuva Lab"
@@ -29,7 +29,7 @@ const Home = () => {
         title="Yuva Lab Jalandhar | #1 Medical Lab | Blood Test | Home Collection"
         description="#1 Medical Lab in Jalandhar since 2007 by Jaltinder. 500+ blood tests, health packages, 4-hour reports, free home collection. Contact: yuvalab24@gmail.com"
         keywords={["medical lab jalandhar", "blood test jalandhar", "pathology lab near me", "diagnostic center jalandhar", "health checkup jalandhar", "home collection lab", "best medical lab jalandhar", "yuvalab diagnostics", "lab test near me", "blood test near me", "medical test jalandhar", "health package jalandhar"]}
-        canonical="https://yuvalab.com"
+        canonical="https://yuvalab.in/"
         schema={schema}
       />
       <LocalBusinessSchema />

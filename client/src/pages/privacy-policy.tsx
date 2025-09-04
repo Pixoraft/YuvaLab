@@ -1,5 +1,14 @@
+import SEOHead from "@/components/seo-head";
+
 export default function PrivacyPolicy() {
   return (
+    <>
+      <SEOHead
+        title="Privacy Policy | YuvaLab Diagnostics | Medical Lab Jalandhar"
+        description="Privacy Policy of YuvaLab Diagnostics - leading medical lab in Jalandhar. Learn how we protect your medical data and personal information."
+        keywords={["privacy policy", "yuvalab privacy", "medical data protection", "patient privacy", "diagnostic lab privacy"]}
+        canonical="https://yuvalab.in/privacy-policy"
+      />
     <div className="min-h-screen bg-background">
         <div className="max-w-4xl mx-auto px-4 py-16 pt-20">
           <div className="prose prose-lg max-w-none">
@@ -127,5 +136,6 @@ export default function PrivacyPolicy() {
           </div>
         </div>
       </div>
+    </>
   );
 }

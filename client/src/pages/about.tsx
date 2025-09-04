@@ -30,7 +30,7 @@ const About = () => {
     "@type": "AboutPage",
     "name": "About Yuva Lab Jalandhar",
     "description": "Learn about Yuva Lab, founded by Jatinder in 2007. Leading medical lab in Jalandhar with 18+ years of trusted healthcare services.",
-    "url": "https://yuvalab.com/about",
+    "url": "https://yuvalab.in/about",
     "mainEntity": {
       "@type": "MedicalBusiness",
       "name": "Yuva Lab",
@@ -48,7 +48,7 @@ const About = () => {
         title="About Yuva Lab Jalandhar | Founded by Jatinder 2007 | Medical Lab History"
         description="About Yuva Lab: Founded by Jatinder in 2007, serving Jalandhar for 18+ years. Trusted medical laboratory with 99.9% accuracy, expert team, 4-hour reports."
         keywords={["about yuvalab diagnostics", "medical lab history jalandhar", "jatinder founder", "trusted medical lab", "pathology lab jalandhar history", "diagnostic center about", "medical testing experience"]}
-        canonical="https://yuvalab.com/about"
+        canonical="https://yuvalab.in/about"
         schema={schema}
       />
       <div className="pt-20" data-testid="about-page">
