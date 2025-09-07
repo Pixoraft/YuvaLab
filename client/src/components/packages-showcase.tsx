@@ -163,12 +163,21 @@ const PackagesShowcase = () => {
     },
     {
       name: "All Fever Panel (Fever Panel 4)",
-      discountedPrice: null,
-      originalPrice: null,
+      discountedPrice: 2900,
+      originalPrice: 4350,
       tests: [
         "CBC (Complete Blood Count)",
         "ESR (Erythrocyte Sedimentation Rate)",
-        "Contact for pricing"
+        "Widal (Test for Typhoid Fever)",
+        "MP (Malaria Parasite Test)",
+        "Typhidot (Test for Typhoid Fever)",
+        "Dengue NS-1 (Test for Dengue Virus)",
+        "Dengue IgM/IgG (Tests for Dengue Antibodies IgM and IgG)",
+        "Chikungunya (Test for Chikungunya Virus)",
+        "LFT (Liver Function Test)",
+        "RFT (Renal Function Test)",
+        "Urine (Urine Routine Examination)",
+        "CRP (C-Reactive Protein Test)"
       ]
     }
   ];
