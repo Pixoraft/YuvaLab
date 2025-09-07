@@ -7,6 +7,7 @@ const PackagesShowcase = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isFeverPanelModalOpen, setIsFeverPanelModalOpen] = useState(false);
   const [isFullBodyModalOpen, setIsFullBodyModalOpen] = useState(false);
+  const [isFullBodyMaleModalOpen, setIsFullBodyMaleModalOpen] = useState(false);
   
   const handleBookPackage = (
     packageTitle: string,
@@ -294,6 +295,46 @@ const PackagesShowcase = () => {
         "Glycosylated Hemoglobin (GHb/HBA1c)"
       ]
     },
+    {
+      id: "fbam",
+      title: "Full Body Advance MAP99* MALE",
+      code: "MAP99",
+      description:
+        "Comprehensive full body health checkup specially designed for men",
+      tests: 20,
+      originalPrice: 14000,
+      currentPrice: 5500,
+      discount: 61,
+      popular: true,
+      features: [
+        "Glucose Fasting & PP",
+        "PSA Total (Prostate Cancer Marker)",
+        "Vitamin B12 & D Total",
+        "Iron Profile",
+        "Thyroid Profile",
+      ],
+      reportTime: "Same Day",
+      fullTestList: [
+        "Glucose - Postprandial",
+        "Albumin/Creatinine Ratio",
+        "Post Prandial Urine Glucose",
+        "IRON PROFILE",
+        "Vitamin - B12 & 25-Hydroxy Vitamin D Total (D2 & D3)",
+        "Zin, CK, Testo, APO-A1, APO-B",
+        "Glucose - Fasting",
+        "Prostate Specific Antigen, PSA Total",
+        "Kidney Basic screen - Profiles",
+        "Fasting Urine Glucose",
+        "Cal, Phos, Amy, Lip, LDH, hsCRP, Ferr",
+        "Homocysteine",
+        "Liver Function Profile",
+        "Thyroid Profile-I",
+        "Lipid Profile",
+        "Complete Urine Analysis (CUE)",
+        "Complete Blood Count (CBC)",
+        "Glycosylated Hemoglobin (GHb/HBA1c)"
+      ]
+    },
   ];
 
   return (
@@ -409,7 +450,7 @@ const PackagesShowcase = () => {
                       </div>
                     </div>
                   )}
-                  {/* Package Features for Full Body Advance */}
+                  {/* Package Features for Full Body Advance Female */}
                   {pkg.features && pkg.id === "fbaf" && (
                     <div className="mb-4">
                       <div className="flex justify-between items-center mb-2">
@@ -437,8 +478,36 @@ const PackagesShowcase = () => {
                       </div>
                     </div>
                   )}
+                  {/* Package Features for Full Body Advance Male */}
+                  {pkg.features && pkg.id === "fbam" && (
+                    <div className="mb-4">
+                      <div className="flex justify-between items-center mb-2">
+                        <h4 className="text-sm font-semibold text-primary">
+                          Key Tests:
+                        </h4>
+                        <Button
+                          onClick={() => setIsFullBodyMaleModalOpen(true)}
+                          variant="outline"
+                          size="sm"
+                          className="text-xs px-2 py-1 h-6"
+                        >
+                          View All Tests
+                        </Button>
+                      </div>
+                      <div className="flex flex-wrap gap-1">
+                        {pkg.features.slice(0, 3).map((feature, index) => (
+                          <span
+                            key={index}
+                            className="text-xs bg-primary/10 text-primary px-2 py-1 rounded border border-primary/20"
+                          >
+                            {feature}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                   {/* Package Features for other packages */}
-                  {pkg.features && pkg.id !== "mfpa" && pkg.id !== "fbaf" && (
+                  {pkg.features && pkg.id !== "mfpa" && pkg.id !== "fbaf" && pkg.id !== "fbam" && (
                     <div className="mb-4">
                       <div className="flex flex-wrap gap-1">
                         {pkg.features.slice(0, 3).map((feature, index) => (
@@ -721,6 +790,68 @@ const PackagesShowcase = () => {
                 <ul className="text-sm text-blue-700 space-y-1">
                   <li>• Specially designed comprehensive health checkup for women</li>
                   <li>• Includes CA 125 Ovarian Cancer marker screening</li>
+                  <li>• Complete vitamin profile (B12 & Vitamin D)</li>
+                  <li>• Advanced cardiac and metabolic markers</li>
+                  <li>• Same day reporting with expert consultation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
+      
+      {/* Full Body Advance Male Details Modal */}
+      <Dialog open={isFullBodyMaleModalOpen} onOpenChange={setIsFullBodyMaleModalOpen}>
+        <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle className="text-2xl font-bold text-primary mb-2">Full Body Advance MAP99* MALE - Complete Test List</DialogTitle>
+            <DialogDescription className="text-sm text-muted-foreground">
+              Comprehensive health checkup specially designed for men
+            </DialogDescription>
+          </DialogHeader>
+          
+          <div className="mt-4">
+            <div className="border rounded-lg p-6 bg-gradient-to-r from-blue-50/50 to-white">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="text-xl font-bold text-primary">Full Body Advance MAP99* MALE</h3>
+                  <div className="flex items-center gap-2 mt-2">
+                    <span className="text-2xl font-bold text-green-600">₹5,500</span>
+                    <span className="text-lg text-muted-foreground line-through">₹14,000</span>
+                    <Badge className="bg-green-100 text-green-800 text-sm px-3 py-1">
+                      61% OFF
+                    </Badge>
+                  </div>
+                  <div className="text-sm text-muted-foreground mt-1">
+                    18+ Comprehensive Tests | Same Day Reports
+                  </div>
+                </div>
+                <Button
+                  onClick={() => {
+                    handleBookPackage("Full Body Advance MAP99* MALE", "MAP99", 5500);
+                    setIsFullBodyMaleModalOpen(false);
+                  }}
+                  className="bg-gradient-to-r from-primary to-blue-600 text-white hover:from-primary/90 hover:to-blue-700"
+                  size="lg"
+                >
+                  Book Now
+                </Button>
+              </div>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {packages.find(pkg => pkg.id === "fbam")?.fullTestList?.map((test, testIndex) => (
+                  <div key={testIndex} className="flex items-center gap-3 text-sm p-3 bg-white/80 rounded-lg border border-blue-200/50">
+                    <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                    <span className="text-gray-700 font-medium">{test}</span>
+                  </div>
+                ))}
+              </div>
+              
+              <div className="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                <h4 className="font-semibold text-blue-800 mb-2">Package Highlights:</h4>
+                <ul className="text-sm text-blue-700 space-y-1">
+                  <li>• Specially designed comprehensive health checkup for men</li>
+                  <li>• Includes PSA Total (Prostate Cancer) marker screening</li>
                   <li>• Complete vitamin profile (B12 & Vitamin D)</li>
                   <li>• Advanced cardiac and metabolic markers</li>
                   <li>• Same day reporting with expert consultation</li>
