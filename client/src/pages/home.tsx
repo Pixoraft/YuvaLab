@@ -37,8 +37,8 @@ const Home = () => {
       <HeroSection />
       <KeyHighlights />
       <SeasonalPromotion />
-      <ServicesGrid />
       <PackagesShowcase />
+      <ServicesGrid />
       <WhyChooseUs />
       <Statistics />
       <Testimonials />

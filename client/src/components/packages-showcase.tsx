@@ -182,7 +182,7 @@ const PackagesShowcase = () => {
         "Comprehensive fever panel with fast 4-hour reporting and home collection",
       tests: 32,
       originalPrice: 1050,
-      currentPrice: 800,
+      currentPrice: 600,
       discount: 24,
       popular: false,
       features: [
