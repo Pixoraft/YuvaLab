@@ -74,9 +74,7 @@ const PackagesShowcase = () => {
         "ESR",
         "Iron Profile",
         "Vitamin D",
-        "Vitamin B12",
-        "RA Factor",
-        "Testo Total"
+        "Vitamin B12"
       ]
     },
     {
