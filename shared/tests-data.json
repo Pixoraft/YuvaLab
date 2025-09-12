@@ -32390,10 +32390,10 @@
     },
     {
       "id": 2754,
-      "name": "Sodium, Urine 24 Hrs",
+      "name": " Sodium, Urine 24 Hrs",
       "category": "Kidney Tests",
       "price": 275,
-      "originalPrice": 385,
+      "originalPrice": 395,
       "code": "S0034",
       "sampleType": "Blood",
       "reportTime": "after 6 hrs",
