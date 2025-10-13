@@ -84,7 +84,7 @@ const About = () => {
             </div>
             <div className="bg-card rounded-xl p-8 shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+                src="https://i.postimg.cc/bv7LTGZx/Untitled-design.jpg" 
                 alt="Modern medical laboratory equipment and facilities" 
                 className="rounded-lg w-full h-auto"
                 data-testid="about-lab-image"
