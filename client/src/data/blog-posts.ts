@@ -362,3 +362,9 @@ Diabetes screening and monitoring are essential. Yuva Lab offers HbA1c, fasting 
     keywords: ["diabetes test Jalandhar", "HbA1c Jalandhar", "OGTT Jalandhar"]
   }
 ];
+export const getCategories = (): string[] => {
+  const categorySet = new Set(blogPosts.map(post => post.category));
+  const categories = ["All", ...Array.from(categorySet)];
+  return categories;
+};
+
