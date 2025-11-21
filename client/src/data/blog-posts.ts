@@ -20,7 +20,8 @@ export const blogPosts: BlogPost[] = [
     id: "blood-test-jalandhar",
     slug: "blood-test-jalandhar",
     title: "Blood Test in Jalandhar — Fast, Accurate & Home Collection",
-    excerpt: "Get reliable blood tests in Jalandhar with 4-hour reports and free home sample collection across the city.",
+    excerpt:
+      "Get reliable blood tests in Jalandhar with 4-hour reports and free home sample collection across the city.",
     content: `
 # Blood Test in Jalandhar — Fast, Accurate & Home Collection
 
@@ -56,19 +57,26 @@ A: Yes — our staff will note fasting requirements when booking.
     author: "Dr. Priya Sharma",
     date: "2025-11-20",
     category: "Local Services",
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&h=400",
+    image: "https://iili.io/f21iZKB.jpg?auto=format&fit=crop&w=800&h=400",
     featured: true,
     tags: ["blood test", "home collection", "Jalandhar", "CBC", "lab test"],
     readTime: "4 min read",
-    metaDescription: "Trusted blood tests in Jalandhar with home sample collection and 4-hour reports. Book Yuva Lab for CBC, lipid profile, thyroid & more.",
-    keywords: ["blood test Jalandhar", "home blood collection Jalandhar", "CBC Jalandhar", "lab test near me"]
+    metaDescription:
+      "Trusted blood tests in Jalandhar with home sample collection and 4-hour reports. Book Yuva Lab for CBC, lipid profile, thyroid & more.",
+    keywords: [
+      "blood test Jalandhar",
+      "home blood collection Jalandhar",
+      "CBC Jalandhar",
+      "lab test near me",
+    ],
   },
 
   {
     id: "diagnostic-lab-jalandhar",
     slug: "diagnostic-lab-jalandhar",
     title: "Best Diagnostic Lab in Jalandhar — Yuva Lab Services & Trust",
-    excerpt: "Why Yuva Lab is considered one of the best diagnostic labs in Jalandhar — technology, accuracy, and fast reports.",
+    excerpt:
+      "Why Yuva Lab is considered one of the best diagnostic labs in Jalandhar — technology, accuracy, and fast reports.",
     content: `
 # Best Diagnostic Lab in Jalandhar — Yuva Lab Services & Trust
 
@@ -95,19 +103,25 @@ If you're searching for the **best diagnostic lab in Jalandhar**, choose a lab w
     author: "Dr. Rajesh Kumar",
     date: "2025-11-20",
     category: "Local Services",
-    image: "https://images.unsplash.com/photo-1519494080410-f9aa76a3c1d8?auto=format&fit=crop&w=800&h=400",
+    image: "https://iili.io/f21mLaR.jpg?auto=format&fit=crop&w=800&h=400",
     featured: true,
     tags: ["diagnostic lab", "Jalandhar", "accredited lab", "medical lab"],
     readTime: "5 min read",
-    metaDescription: "Yuva Lab — top diagnostic lab in Jalandhar offering pathology, biochemistry, hormone testing and reliable 4-hour reports. Book now.",
-    keywords: ["diagnostic lab Jalandhar", "best lab in Jalandhar", "medical lab Jalandhar"]
+    metaDescription:
+      "Yuva Lab — top diagnostic lab in Jalandhar offering pathology, biochemistry, hormone testing and reliable 4-hour reports. Book now.",
+    keywords: [
+      "diagnostic lab Jalandhar",
+      "best lab in Jalandhar",
+      "medical lab Jalandhar",
+    ],
   },
 
   {
     id: "lab-test-near-me",
     slug: "lab-test-near-me",
     title: "Lab Test Near Me — How to Find & Book in Jalandhar",
-    excerpt: "Searching 'lab test near me' in Jalandhar? Use these tips and book Yuva Lab for quick home collection and trusted results.",
+    excerpt:
+      "Searching 'lab test near me' in Jalandhar? Use these tips and book Yuva Lab for quick home collection and trusted results.",
     content: `
 # Lab Test Near Me — How to Find & Book in Jalandhar
 
@@ -132,19 +146,25 @@ When people search **“lab test near me”**, Google prioritizes distance, rele
     author: "Dr. Neha Arora",
     date: "2025-11-20",
     category: "Local SEO",
-    image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&h=400",
+    image: "https://iili.io/f2E2lVI.jpg?auto=format&fit=crop&w=800&h=400",
     featured: false,
     tags: ["lab test near me", "Jalandhar", "home collection", "nearby lab"],
     readTime: "3 min read",
-    metaDescription: "Find lab test near me in Jalandhar. Yuva Lab offers home collection, quick reports and trusted service across Mithapur and nearby areas.",
-    keywords: ["lab test near me Jalandhar", "nearby diagnostic lab", "home sample Jalandhar"]
+    metaDescription:
+      "Find lab test near me in Jalandhar. Yuva Lab offers home collection, quick reports and trusted service across Mithapur and nearby areas.",
+    keywords: [
+      "lab test near me Jalandhar",
+      "nearby diagnostic lab",
+      "home sample Jalandhar",
+    ],
   },
 
   {
     id: "home-sample-collection-jalandhar",
     slug: "home-sample-collection-jalandhar",
     title: "Home Sample Collection in Jalandhar — Book Yuva Lab Visit",
-    excerpt: "Convenient home sample collection across Jalandhar for blood tests, urine tests and packages. Safe phlebotomy and same-day reports.",
+    excerpt:
+      "Convenient home sample collection across Jalandhar for blood tests, urine tests and packages. Safe phlebotomy and same-day reports.",
     content: `
 # Home Sample Collection in Jalandhar — Book Yuva Lab Visit
 
@@ -169,19 +189,25 @@ Busy or unwell? Yuva Lab brings clinic-quality sample collection to your door. O
     author: "Dr. Manpreet Singh",
     date: "2025-11-20",
     category: "Services",
-    image: "https://images.unsplash.com/photo-1588776814546-1e6d71f5b3de?auto=format&fit=crop&w=800&h=400",
+    image: "https://iili.io/f2EGQUP.jpg?auto=format&fit=crop&w=800&h=400",
     featured: false,
     tags: ["home collection", "Jalandhar", "phlebotomy", "home sample"],
     readTime: "3 min read",
-    metaDescription: "Book home sample collection in Jalandhar with Yuva Lab. Trained technicians, secure transport and 4-hour reports for routine tests.",
-    keywords: ["home sample collection Jalandhar", "home blood test Jalandhar", "home lab collection"]
+    metaDescription:
+      "Book home sample collection in Jalandhar with Yuva Lab. Trained technicians, secure transport and 4-hour reports for routine tests.",
+    keywords: [
+      "home sample collection Jalandhar",
+      "home blood test Jalandhar",
+      "home lab collection",
+    ],
   },
 
   {
     id: "full-body-checkup-jalandhar",
     slug: "full-body-checkup-jalandhar",
     title: "Full Body Checkup in Jalandhar — Complete Health Packages",
-    excerpt: "Comprehensive full body checkups and affordable health packages in Jalandhar. Ideal for annual screening and corporate plans.",
+    excerpt:
+      "Comprehensive full body checkups and affordable health packages in Jalandhar. Ideal for annual screening and corporate plans.",
     content: `
 # Full Body Checkup in Jalandhar — Complete Health Packages
 
@@ -207,19 +233,30 @@ A full body checkup is the smartest health investment. Yuva Lab's packages combi
     author: "Dr. Ritu Mehra",
     date: "2025-11-20",
     category: "Health Packages",
-    image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&h=400",
+    image: "https://iili.io/f2EkB3b.png?auto=format&fit=crop&w=800&h=400",
     featured: true,
-    tags: ["full body checkup", "health package", "Jalandhar", "annual checkup"],
+    tags: [
+      "full body checkup",
+      "health package",
+      "Jalandhar",
+      "annual checkup",
+    ],
     readTime: "5 min read",
-    metaDescription: "Affordable full body checkup packages in Jalandhar at Yuva Lab. CBC, LFT, KFT, thyroid, vitamins and corporate plans available.",
-    keywords: ["full body checkup Jalandhar", "health packages Jalandhar", "annual health check Jalandhar"]
+    metaDescription:
+      "Affordable full body checkup packages in Jalandhar at Yuva Lab. CBC, LFT, KFT, thyroid, vitamins and corporate plans available.",
+    keywords: [
+      "full body checkup Jalandhar",
+      "health packages Jalandhar",
+      "annual health check Jalandhar",
+    ],
   },
 
   {
     id: "thyroid-test-jalandhar",
     slug: "thyroid-test-jalandhar",
     title: "Thyroid Test in Jalandhar — TSH, T3, T4 & Antibodies",
-    excerpt: "Get complete thyroid testing at Yuva Lab Jalandhar: TSH, Free T3/T4, anti-TPO with fast reporting and expert interpretation.",
+    excerpt:
+      "Get complete thyroid testing at Yuva Lab Jalandhar: TSH, Free T3/T4, anti-TPO with fast reporting and expert interpretation.",
     content: `
 # Thyroid Test in Jalandhar — TSH, T3, T4 & Antibodies
 
@@ -243,19 +280,25 @@ Thyroid disorders are common and often subtle. Yuva Lab offers a complete thyroi
     author: "Dr. Suresh Mehta",
     date: "2025-11-20",
     category: "Endocrinology",
-    image: "https://images.unsplash.com/photo-1584036561584-b03c19da874c?auto=format&fit=crop&w=800&h=400",
+    image: "https://iili.io/f2ELbxs.jpg?auto=format&fit=crop&w=800&h=400",
     featured: false,
     tags: ["thyroid", "TSH", "T3", "T4", "Jalandhar"],
     readTime: "4 min read",
-    metaDescription: "Complete thyroid testing (TSH, T3, T4, anti-TPO) in Jalandhar at Yuva Lab. Home collection and fast, accurate results.",
-    keywords: ["thyroid test Jalandhar", "TSH test Jalandhar", "anti-TPO Jalandhar"]
+    metaDescription:
+      "Complete thyroid testing (TSH, T3, T4, anti-TPO) in Jalandhar at Yuva Lab. Home collection and fast, accurate results.",
+    keywords: [
+      "thyroid test Jalandhar",
+      "TSH test Jalandhar",
+      "anti-TPO Jalandhar",
+    ],
   },
 
   {
     id: "cbc-test-jalandhar",
     slug: "cbc-test-jalandhar",
     title: "CBC Test in Jalandhar — Complete Blood Count Explained",
-    excerpt: "Understand CBC (Complete Blood Count) and get accurate CBC testing in Jalandhar with fast reporting and expert interpretation.",
+    excerpt:
+      "Understand CBC (Complete Blood Count) and get accurate CBC testing in Jalandhar with fast reporting and expert interpretation.",
     content: `
 # CBC Test in Jalandhar — Complete Blood Count Explained
 
@@ -280,19 +323,25 @@ A **CBC (Complete Blood Count)** is a basic, powerful test that helps detect ane
     author: "Dr. Anita Gupta",
     date: "2025-11-20",
     category: "Lab Tests",
-    image: "https://images.unsplash.com/photo-1583422401252-76b0a8f2f27e?auto=format&fit=crop&w=800&h=400",
+    image: "https://iili.io/f2EpDYv.md.png?auto=format&fit=crop&w=800&h=400",
     featured: false,
     tags: ["CBC", "blood count", "Jalandhar", "lab test"],
     readTime: "3 min read",
-    metaDescription: "CBC test in Jalandhar — Complete Blood Count with quick results and expert interpretation. Book home collection at Yuva Lab.",
-    keywords: ["CBC test Jalandhar", "complete blood count Jalandhar", "blood test CBC"]
+    metaDescription:
+      "CBC test in Jalandhar — Complete Blood Count with quick results and expert interpretation. Book home collection at Yuva Lab.",
+    keywords: [
+      "CBC test Jalandhar",
+      "complete blood count Jalandhar",
+      "blood test CBC",
+    ],
   },
 
   {
     id: "lipid-profile-jalandhar",
     slug: "lipid-profile-jalandhar",
     title: "Lipid Profile in Jalandhar — Cholesterol & Heart Risk Check",
-    excerpt: "Check cholesterol and heart health with a full lipid profile at Yuva Lab. Know your LDL, HDL, triglycerides and prevention tips.",
+    excerpt:
+      "Check cholesterol and heart health with a full lipid profile at Yuva Lab. Know your LDL, HDL, triglycerides and prevention tips.",
     content: `
 # Lipid Profile in Jalandhar — Cholesterol & Heart Risk Check
 
@@ -317,19 +366,25 @@ A lipid profile measures fats in your blood and helps estimate heart disease ris
     author: "Dr. Vikram Singh",
     date: "2025-11-20",
     category: "Cardiac Health",
-    image: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&w=800&h=400",
+    image: "https://iili.io/f2MGJ9t.jpg?auto=format&fit=crop&w=800&h=400",
     featured: false,
     tags: ["lipid profile", "cholesterol", "heart risk", "Jalandhar"],
     readTime: "4 min read",
-    metaDescription: "Lipid profile testing in Jalandhar at Yuva Lab. Check LDL, HDL, triglycerides and assess heart disease risk. Home collection available.",
-    keywords: ["lipid profile Jalandhar", "cholesterol test Jalandhar", "LDL HDL Jalandhar"]
+    metaDescription:
+      "Lipid profile testing in Jalandhar at Yuva Lab. Check LDL, HDL, triglycerides and assess heart disease risk. Home collection available.",
+    keywords: [
+      "lipid profile Jalandhar",
+      "cholesterol test Jalandhar",
+      "LDL HDL Jalandhar",
+    ],
   },
 
   {
     id: "diabetes-test-jalandhar",
     slug: "diabetes-test-jalandhar",
     title: "Diabetes Test in Jalandhar — HbA1c, FBS & OGTT Services",
-    excerpt: "Manage diabetes with accurate HbA1c, fasting blood sugar and OGTT testing at Yuva Lab Jalandhar with fast and reliable reports.",
+    excerpt:
+      "Manage diabetes with accurate HbA1c, fasting blood sugar and OGTT testing at Yuva Lab Jalandhar with fast and reliable reports.",
     content: `
 # Diabetes Test in Jalandhar — HbA1c, FBS & OGTT Services
 
@@ -354,17 +409,47 @@ Diabetes screening and monitoring are essential. Yuva Lab offers HbA1c, fasting 
     author: "Dr. Meera Patel",
     date: "2025-11-20",
     category: "Diabetes Care",
-    image: "https://images.unsplash.com/photo-1582719478250-7b1e5c1a4b3b?auto=format&fit=crop&w=800&h=400",
+    image: "https://iili.io/f2MDRII.jpg?auto=format&fit=crop&w=800&h=400",
     featured: false,
     tags: ["diabetes", "HbA1c", "FBS", "Jalandhar"],
     readTime: "4 min read",
-    metaDescription: "Diabetes testing at Yuva Lab Jalandhar: HbA1c, fasting sugar, OGTT and monitoring packages. Fast, accurate results and home collection.",
-    keywords: ["diabetes test Jalandhar", "HbA1c Jalandhar", "OGTT Jalandhar"]
-  }
+    metaDescription:
+      "Diabetes testing at Yuva Lab Jalandhar: HbA1c, fasting sugar, OGTT and monitoring packages. Fast, accurate results and home collection.",
+    keywords: ["diabetes test Jalandhar", "HbA1c Jalandhar", "OGTT Jalandhar"],
+  },
 ];
 export const getCategories = (): string[] => {
-  const categorySet = new Set(blogPosts.map(post => post.category));
+  const categorySet = new Set(blogPosts.map((post) => post.category));
   const categories = ["All", ...Array.from(categorySet)];
   return categories;
 };
 
+export const getFeaturedPosts = (): BlogPost[] => {
+  return blogPosts.filter((post) => post.featured);
+};
+
+export const getPostsByCategory = (category: string): BlogPost[] => {
+  if (category === "All") {
+    return blogPosts;
+  }
+  return blogPosts.filter((post) => post.category === category);
+};
+
+export const getBlogPostBySlug = (slug: string): BlogPost | undefined => {
+  return blogPosts.find((post) => post.slug === slug);
+};
+
+export const getRelatedPosts = (
+  currentPostId: string,
+  limit: number = 3,
+): BlogPost[] => {
+  const currentPost = blogPosts.find((post) => post.id === currentPostId);
+  if (!currentPost) return [];
+
+  return blogPosts
+    .filter(
+      (post) =>
+        post.id !== currentPostId && post.category === currentPost.category,
+    )
+    .slice(0, limit);
+};
