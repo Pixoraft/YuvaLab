@@ -72,13 +72,30 @@ const Footer = () => {
         </div>
         
         {/* Bottom Footer */}
-        <div className="border-t border-gray-700 mt-6 sm:mt-8 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
-          <p className="text-gray-300 text-sm sm:text-base text-center sm:text-left" data-testid="footer-copyright">
-            &copy; 2025 Yuva Lab. All rights reserved.
-          </p>
-          <div className="flex flex-wrap justify-center sm:justify-end space-x-4 sm:space-x-6 mt-0">
-            <Link href="/privacy-policy" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-privacy">Privacy Policy</Link>
-            <Link href="/terms-conditions" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-terms">Terms & Conditions</Link>
+        <div className="border-t border-gray-700 mt-6 sm:mt-8 pt-6 sm:pt-8">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
+            <p className="text-gray-300 text-sm sm:text-base text-center sm:text-left" data-testid="footer-copyright">
+              &copy; 2025 Yuva Lab. All rights reserved.
+            </p>
+            <div className="flex flex-wrap justify-center sm:justify-end space-x-4 sm:space-x-6 mt-0">
+              <a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-privacy">Privacy Policy</a>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-terms">Terms of Service</a>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-cookies">Cookie Policy</a>
+            </div>
+          </div>
+          <div className="text-center mt-4">
+            <p className="text-gray-400 text-sm">
+               By{" "}
+              <a 
+                href="https://www.google.com/search?q=Pixocraft" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-400 hover:text-blue-300 transition-colors font-medium"
+                data-testid="footer-pixocraft-link"
+              >
+                Pixocraft
+              </a>
+            </p>
           </div>
         </div>
       </div>
