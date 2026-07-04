@@ -1,0 +1,49 @@
+# Robots.txt for YuvaLab Diagnostics - Medical Lab in Jalandhar
+
+User-agent: *
+Allow: /
+
+# Prioritize important pages for crawling
+Allow: /services
+Allow: /tests
+Allow: /packages
+Allow: /about
+Allow: /contact
+Allow: /blog
+
+# Block any admin or private areas (if they exist in future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_*
+Disallow: /api/
+
+# Allow CSS, JS, and images
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.webp
+
+# Sitemap location (sitemap index points to main + test sitemaps)
+Sitemap: https://yuvalab.in/sitemap.xml
+Sitemap: https://yuvalab.in/sitemap-main.xml
+Sitemap: https://yuvalab.in/sitemap-tests-1.xml
+
+# Crawl delay (optional - can help with server load)
+Crawl-delay: 1
+
+# Specific instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2

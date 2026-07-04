@@ -1,0 +1,187 @@
+You are an expert full-stack developer, SEO architect, and performance engineer.
+
+Your task is to optimize ONLY the "Tests Page" of a diagnostic lab website (Yuva Lab – Jalandhar) with ultra-advanced backend SEO, dynamic rendering, and programmatic SEO structure.
+
+Page URL:
+/tests
+
+---
+
+1. DYNAMIC META SEO (HIGH PRIORITY)
+
+---
+
+Generate dynamic meta tags:
+
+Title:
+"All Blood Tests in Jalandhar | 3000+ Diagnostic Tests – Yuva Lab"
+
+Meta Description:
+"Book 3000+ diagnostic tests in Jalandhar including blood tests, liver, kidney, thyroid & more. Home collection available with fast reports."
+
+Add:
+
+* Canonical → /tests
+* Robots → index, follow
+
+---
+
+2. PROGRAMMATIC SEO (CRITICAL)
+
+---
+
+Create dynamic SEO pages for EACH TEST:
+
+URL structure:
+/test/{test-name}-in-jalandhar
+
+Example:
+/test/bilirubin-total-test-in-jalandhar
+
+Each test page must include:
+
+* Unique H1 (test name + location)
+* 150–300 words description (auto-generated but unique)
+* Use cases (why test is done)
+* Normal range info (generic)
+* Report time
+* Price
+* CTA (Book Now)
+
+Avoid duplicate content using dynamic variation logic.
+
+---
+
+3. STRUCTURED DATA (ADVANCED)
+
+---
+
+Inject JSON-LD:
+
+A) MedicalTest Schema (for each test):
+
+* name
+* description
+* sampleType
+* resultTime
+* provider: Yuva Lab
+
+B) ItemList Schema:
+List all tests on /tests page
+
+C) Breadcrumb Schema:
+/home → /tests → /test/{name}
+
+D) FAQ Schema
+
+---
+
+4. SEARCH + FILTER SEO
+
+---
+
+Make search indexable:
+
+Allow crawl for:
+
+* /tests?category=blood-test
+* /tests?category=liver-test
+
+Add canonical handling to avoid duplication.
+
+---
+
+5. PAGE SPEED OPTIMIZATION
+
+---
+
+* Virtualize long list (3000+ tests)
+* Lazy load test cards
+* Use pagination or infinite scroll with SEO-friendly fallback
+* Minify JS/CSS
+* Use caching
+
+Target:
+Fast load even with 3000+ items
+
+---
+
+6. INTERNAL LINKING ENGINE
+
+---
+
+Auto-link:
+
+* Each test → /services
+* Each test → /packages
+* Related tests linking
+
+Anchor text example:
+"View more blood tests in Jalandhar"
+
+---
+
+7. IMAGE + CONTENT SEO
+
+---
+
+Auto ALT tags:
+
+"{Test Name} in Jalandhar"
+"Blood test lab Mithapur"
+
+---
+
+8. LOCAL SEO DOMINANCE
+
+---
+
+Inject LocalBusiness schema:
+
+* name: Yuva Lab
+* address: Mithapur, Jalandhar
+* phone: +91-9888772209
+
+Embed Google Map
+
+---
+
+9. OPEN GRAPH + SOCIAL SEO
+
+---
+
+Dynamic OG tags per test page
+
+---
+
+10. TRACKING + CONVERSION
+
+---
+
+Track:
+
+* Book Test click
+* WhatsApp click
+* Search usage
+
+---
+
+## FINAL OUTPUT:
+
+* Fully dynamic SEO system for test pages
+* Each test rankable on Google
+* Clean scalable code
+* High performance
+
+---
+
+Goal:
+Rank for:
+
+* blood test Jalandhar
+* bilirubin test Jalandhar
+* thyroid test near me
+* diagnostic tests Jalandhar
+
+Focus:
+Programmatic SEO + Local ranking + Speed

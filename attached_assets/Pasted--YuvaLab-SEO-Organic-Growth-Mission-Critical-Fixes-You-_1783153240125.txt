@@ -1,0 +1,439 @@
+# YuvaLab SEO & Organic Growth Mission (Critical Fixes)
+
+You are the lead Senior Technical SEO Engineer, Local SEO Expert, GEO (Generative Engine Optimization) Specialist, UX Specialist, and Full-Stack Next.js Developer for YuvaLab.
+
+Your objective is to maximize Google's trust, rankings, CTR, conversions, local visibility, and AI search visibility.
+
+## Current Search Console Data
+
+Current 28-day performance:
+
+* Clicks: 6
+* Impressions: 225+
+* Google has started ranking the website for commercial intent keywords.
+
+Important Queries Receiving Impressions:
+
+* lab in jalandhar
+* blood test at home jalandhar
+* blood test near me
+* laboratory near me
+* preventive health checkup packages in jalandhar
+* preventive health checkup near jalandhar
+* preventive medical checkup packages jalandhar
+* health checkup packages
+* diagnostic centre jalandhar
+* thyroid test
+* thyroid test price in punjab
+* home sample collection
+* blood sample collection from home
+* cancer screening in jalandhar
+* genetic testing
+* full body checkup
+* full body checkup jalandhar
+* full body checkup price in jalandhar
+* full body test packages
+* home blood sample collection
+* sample collection at home
+* body checkup near me
+* blood test laboratory near me
+
+Google clearly understands that YuvaLab is a diagnostic laboratory.
+
+The issue is NOT indexing.
+
+The issue is CTR, rankings, topical authority, landing pages and Local SEO.
+
+---
+
+# Your Job
+
+Perform a COMPLETE audit.
+
+Do not assume anything.
+
+Inspect every page, every component, every metadata file, every route, every structured data implementation and every internal link.
+
+Generate a detailed report first.
+
+Then automatically fix everything.
+
+---
+
+# Phase 1
+
+Complete SEO Audit
+
+Check:
+
+✔ Title Tags
+
+✔ Meta Descriptions
+
+✔ Canonicals
+
+✔ H1 Structure
+
+✔ Heading Hierarchy
+
+✔ Image ALT Text
+
+✔ Robots
+
+✔ Sitemap
+
+✔ Open Graph
+
+✔ Twitter Cards
+
+✔ JSON-LD
+
+✔ Breadcrumb Schema
+
+✔ LocalBusiness Schema
+
+✔ MedicalOrganization Schema
+
+✔ FAQ Schema
+
+✔ Review Schema
+
+✔ Service Schema
+
+✔ Organization Schema
+
+✔ Website Schema
+
+✔ SearchAction Schema
+
+✔ Navigation
+
+✔ Internal Linking
+
+✔ Broken Links
+
+✔ Thin Pages
+
+✔ Duplicate Content
+
+✔ Duplicate Metadata
+
+✔ Crawl Depth
+
+✔ Indexability
+
+✔ Core Web Vitals
+
+✔ Mobile Experience
+
+✔ Accessibility
+
+✔ Performance
+
+✔ JavaScript Rendering
+
+✔ Dynamic Metadata
+
+✔ Metadata Injection
+
+✔ Route Metadata
+
+✔ Robots Blocking
+
+✔ Lazy Loading
+
+✔ Image Optimization
+
+✔ URL Structure
+
+✔ Breadcrumbs
+
+✔ Local SEO
+
+✔ GEO optimization for ChatGPT, Gemini, Perplexity and AI Overviews
+
+---
+
+# Phase 2
+
+Landing Pages
+
+If any of these pages are missing, build them using the current design system.
+
+Each page should contain 2,000–3,500+ words of high-quality, medically accurate, human-first content.
+
+Create pages for:
+
+/blood-test-jalandhar
+
+/home-blood-collection-jalandhar
+
+/full-body-checkup-jalandhar
+
+/preventive-health-checkup-jalandhar
+
+/thyroid-test-jalandhar
+
+/diagnostic-centre-jalandhar
+
+/cancer-screening-jalandhar
+
+/blood-test-price-jalandhar
+
+/pathology-lab-jalandhar
+
+/health-checkup-packages-jalandhar
+
+Each page must include:
+
+• Unique Title
+• Unique Meta Description
+• Optimized H1
+• FAQs
+• Related Services
+• Internal Links
+• CTA
+• Testimonials
+• Local Areas Covered
+• Rich Schema
+• Breadcrumb
+• Medical Disclaimer
+
+No duplicate content.
+
+---
+
+# Phase 3
+
+CTR Optimization
+
+Rewrite every title.
+
+Current titles are too weak.
+
+Titles should include:
+
+Primary Keyword
+
+Location
+
+Brand
+
+Examples:
+
+Blood Test in Jalandhar | Home Collection | YuvaLab
+
+Preventive Health Checkup Packages in Jalandhar | YuvaLab
+
+Full Body Checkup in Jalandhar | Affordable Packages | YuvaLab
+
+Rewrite all descriptions to increase click-through rate.
+
+---
+
+# Phase 4
+
+Topical Authority
+
+Generate supporting pages and blog articles for every major service.
+
+Examples:
+
+How to Prepare for a Blood Test
+
+Benefits of Preventive Health Checkups
+
+When Should You Get Thyroid Tests
+
+Difference Between CBC and Complete Blood Count
+
+Liver Function Test Guide
+
+Kidney Function Test Guide
+
+Cancer Screening Guide
+
+Vitamin D Deficiency Symptoms
+
+Home Blood Collection Guide
+
+Best Health Checkup Packages in Jalandhar
+
+Each article must internally link to service pages.
+
+---
+
+# Phase 5
+
+Local SEO
+
+Strengthen local relevance.
+
+Mention:
+
+Jalandhar
+
+Punjab
+
+Nearby areas
+
+Nearby landmarks
+
+Service locations
+
+Local FAQs
+
+Embed map if available.
+
+Ensure consistent NAP information.
+
+---
+
+# Phase 6
+
+Schema
+
+Implement:
+
+MedicalOrganization
+
+DiagnosticLab
+
+Organization
+
+LocalBusiness
+
+Service
+
+FAQ
+
+Breadcrumb
+
+Review
+
+Website
+
+SearchAction
+
+ContactPoint
+
+OpeningHours
+
+GeoCoordinates
+
+SameAs
+
+Validate all schemas.
+
+---
+
+# Phase 7
+
+Internal Linking
+
+Create a strong semantic internal linking structure.
+
+Every service page should link to:
+
+Related Tests
+
+Related Packages
+
+Blogs
+
+Home Collection
+
+Contact
+
+Booking
+
+Packages
+
+FAQs
+
+---
+
+# Phase 8
+
+AI SEO / GEO
+
+Optimize content for:
+
+Google AI Overviews
+
+ChatGPT
+
+Gemini
+
+Perplexity
+
+Claude
+
+Copilot
+
+Include:
+
+Entity-rich writing
+
+Question-answer format
+
+Concise summaries
+
+Comparison tables
+
+Definitions
+
+Medical explanations
+
+Structured content
+
+High E-E-A-T signals
+
+---
+
+# Phase 9
+
+Performance
+
+Target:
+
+LCP under 2 seconds
+
+CLS below 0.1
+
+INP below 200ms
+
+Compress images.
+
+Optimize fonts.
+
+Reduce JS.
+
+Improve caching.
+
+Preload important resources.
+
+---
+
+# Phase 10
+
+Deliverables
+
+After analysis provide:
+
+1. Every issue found.
+2. Severity level.
+3. SEO impact.
+4. Fix applied.
+5. Files modified.
+6. Code changes.
+7. Expected ranking improvement.
+8. Expected CTR improvement.
+9. Expected indexing improvement.
+10. Remaining recommendations.
+
+Do NOT stop after reporting.
+
+Continue until every high-impact SEO issue is fixed.
+
+Your goal is to make YuvaLab the highest-ranking diagnostic laboratory website in Jalandhar by following Google's latest SEO, Local SEO, E-E-A-T, Helpful Content, Core Web Vitals, and AI Search best practices.

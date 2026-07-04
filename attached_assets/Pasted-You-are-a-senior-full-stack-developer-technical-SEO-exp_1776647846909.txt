@@ -1,0 +1,175 @@
+You are a senior full-stack developer, technical SEO expert, and conversion optimization specialist.
+
+Your task is to implement backend SEO ONLY for the "Contact Page" of a diagnostic lab website (Yuva Lab – Jalandhar).
+
+Focus on:
+
+* Local SEO dominance
+* Conversion tracking
+* Structured data
+* Performance
+
+Do NOT modify UI unnecessarily.
+
+---
+
+1. META SEO SYSTEM
+
+---
+
+Inject dynamic meta tags:
+
+Title:
+"Contact Yuva Lab | Book Blood Test in Jalandhar | Call Now"
+
+Meta Description:
+"Contact Yuva Lab in Jalandhar for blood tests, health packages, and home collection. Call or WhatsApp to book your test."
+
+Add:
+
+* Canonical tag (self-referencing)
+* Robots → index, follow
+
+---
+
+2. STRUCTURED DATA (LOCAL SEO CRITICAL)
+
+---
+
+Inject JSON-LD:
+
+A) MedicalBusiness Schema:
+
+* name: Yuva Lab
+* address: Mithapur, Jalandhar, Punjab
+* phone: +91-9888772209
+* email: [yuvalab24@gmail.com](mailto:yuvalab24@gmail.com)
+* openingHours
+* areaServed: Jalandhar
+
+B) ContactPoint Schema:
+
+* telephone
+* contactType: customer service
+
+C) LocalBusiness Schema:
+
+* geo (latitude, longitude if available)
+
+---
+
+3. NAP CONSISTENCY SYSTEM
+
+---
+
+Ensure backend enforces consistent:
+
+* Name: Yuva Lab
+* Address: Mithapur, Jalandhar
+* Phone: +91-9888772209
+
+Used across:
+
+* Footer
+* Schema
+* Page content
+
+---
+
+4. CONVERSION TRACKING SYSTEM
+
+---
+
+Prepare backend hooks for:
+
+* Call button clicks
+* WhatsApp clicks
+* Form submissions
+
+Compatible with:
+
+* Google Analytics 4
+* Google Tag Manager
+
+---
+
+5. FORM SEO + PERFORMANCE
+
+---
+
+* Optimize form submission (fast response)
+* Prevent spam (basic validation)
+* Ensure mobile-friendly handling
+
+---
+
+6. GOOGLE MAP EMBED SUPPORT
+
+---
+
+* Embed location map
+* Ensure fast loading
+
+---
+
+7. INTERNAL LINKING SUPPORT
+
+---
+
+Auto-link:
+
+* Contact → Services
+* Contact → Tests
+* Contact → Packages
+
+---
+
+8. OPEN GRAPH + SOCIAL SEO
+
+---
+
+Add:
+
+og:title
+og:description
+og:type
+
+Twitter card:
+summary_large_image
+
+---
+
+9. PERFORMANCE OPTIMIZATION
+
+---
+
+* Minify JS/CSS
+* Enable caching
+* Compress responses
+
+---
+
+10. SECURITY HEADERS
+
+---
+
+* HTTPS enforcement
+* X-Frame-Options
+* X-Content-Type-Options
+
+---
+
+## FINAL OUTPUT:
+
+* Fully optimized backend SEO for contact page
+* Conversion-ready tracking system
+* Strong local SEO signals
+* Fast and secure implementation
+
+---
+
+Goal:
+Maximize calls, WhatsApp leads, and test bookings from local users.
+
+Focus:
+Local SEO + conversion optimization + tracking

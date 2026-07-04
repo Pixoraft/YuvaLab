@@ -1,0 +1,259 @@
+You are a senior full-stack engineer, technical SEO architect, and content infrastructure specialist.
+
+Your task is to build a high-performance, SEO-optimized backend system for the "Blog Section" of a diagnostic lab website (Yuva Lab – Jalandhar).
+
+Focus on:
+
+* Programmatic SEO
+* Content scalability
+* Indexing optimization
+* Internal linking automation
+* Performance
+
+Do NOT focus on UI. Build a powerful SEO engine.
+
+---
+
+1. DYNAMIC META SEO ENGINE
+
+---
+
+Implement server-side meta generation:
+
+Default (Blog Listing Page):
+Title:
+"Health Blog in Jalandhar | Blood Test, Thyroid & Diabetes Tips – Yuva Lab"
+
+Meta Description:
+"Read expert health blogs on blood tests, thyroid, diabetes, and preventive care in Jalandhar. Stay updated with medical insights."
+
+For EACH blog post:
+
+* Dynamic title (include keyword + location)
+* Dynamic meta description (150–160 chars optimized)
+
+Add:
+
+* Canonical tags (self-referencing)
+* Robots → index, follow
+
+---
+
+2. PROGRAMMATIC BLOG ARCHITECTURE
+
+---
+
+Create a scalable blog system:
+
+Each blog must be:
+
+* Individually indexable
+* SEO-optimized
+* Dynamically rendered (SSR or pre-rendered)
+
+Fields required:
+
+* title
+* slug (auto-generated)
+* category
+* author
+* publish_date
+* content (rich text or markdown)
+* excerpt
+* featured_image (optional)
+
+Ensure:
+
+* Clean URL structure
+* No duplicate slugs
+* Auto slug generation from title
+
+---
+
+3. ADVANCED STRUCTURED DATA SYSTEM
+
+---
+
+Inject JSON-LD:
+
+A) BlogPosting Schema (per article):
+
+* headline
+* description
+* author
+* datePublished
+* image
+* publisher: Yuva Lab
+
+B) ItemList Schema (blog listing page):
+
+* list all posts with position
+
+C) Breadcrumb Schema:
+Home → Blog → Article
+
+D) FAQ Schema (if content contains FAQs)
+
+---
+
+4. CATEGORY + TAG SEO SYSTEM
+
+---
+
+Implement category pages:
+
+Examples:
+
+* Lab Tests
+* Diabetes
+* Cardiac Health
+* Local SEO
+
+Backend must:
+
+* Generate category-based listings
+* Allow crawlable category pages
+* Add canonical handling to avoid duplication
+
+---
+
+5. INTERNAL LINKING AUTOMATION (CRITICAL)
+
+---
+
+Automatically inject contextual links inside blog content:
+
+* Link to Services page
+* Link to Tests page
+* Link to Packages page
+
+Also:
+
+* Suggest related blog posts (based on category/tags)
+
+Anchor text examples:
+
+* "Book blood test in Jalandhar"
+* "Explore full body checkup packages"
+* "View all diagnostic services"
+
+---
+
+6. CONTENT SEO OPTIMIZATION ENGINE
+
+---
+
+Ensure backend supports:
+
+* H1, H2, H3 structured content
+* Keyword-rich headings
+* Paragraph formatting
+
+Optional:
+Auto-suggest keyword placement zones
+
+---
+
+7. IMAGE SEO AUTOMATION
+
+---
+
+For all blog images:
+
+* Auto-generate ALT tags:
+  "{Blog Topic} in Jalandhar"
+  "Health test insights Punjab"
+
+* Optimize images (WebP)
+
+* Lazy load images
+
+---
+
+8. LOCAL SEO SIGNAL INJECTION
+
+---
+
+Globally inject LocalBusiness schema:
+
+* name: Yuva Lab
+* address: Mithapur, Jalandhar, Punjab
+* phone: +91-9888772209
+* areaServed: Jalandhar
+
+---
+
+9. OPEN GRAPH + SOCIAL SEO
+
+---
+
+For each blog:
+
+* og:title
+* og:description
+* og:type → article
+* og:url
+* og:image
+
+Twitter Card:
+summary_large_image
+
+---
+
+10. PERFORMANCE OPTIMIZATION
+
+---
+
+* Use SSR or static generation
+* Cache blog data
+* Minify API responses
+* Lazy load content/images
+
+Target:
+Page load <2.5s
+
+---
+
+11. EVENT TRACKING HOOKS
+
+---
+
+Prepare backend support for:
+
+* Blog click tracking
+* Read more clicks
+* CTA clicks (Book Test, Call)
+
+Compatible with GA4 / GTM
+
+---
+
+12. SCALABILITY + CMS-LIKE STRUCTURE
+
+---
+
+* Store blog data in structured format (DB or JSON)
+* Allow easy addition/editing of blogs
+* Enable future automation (AI content generation)
+
+---
+
+## FINAL OUTPUT:
+
+* Fully scalable SEO blog backend system
+* Each blog post indexable and rankable
+* Clean modular architecture
+* High-performance optimized system
+
+---
+
+Goal:
+Rank for:
+
+* blood test in Jalandhar
+* thyroid test Jalandhar
+* diabetes test Jalandhar
+* lab test near me
+
+Focus:
+Programmatic SEO + content authority + local SEO dominance

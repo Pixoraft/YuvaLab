@@ -1,0 +1,231 @@
+You are a senior full-stack engineer, technical SEO specialist, and performance optimization expert.
+
+Your task is to implement backend SEO ONLY for the "Tests Page" of a diagnostic lab website (Yuva Lab – Jalandhar).
+
+Focus ONLY on:
+/tests
+
+Do NOT modify design or UI unnecessarily. Focus on SEO architecture, performance, structured data, and scalability.
+
+---
+
+1. META SEO ENGINE (DYNAMIC)
+
+---
+
+Inject server-side meta tags:
+
+Title:
+"All Medical Tests in Jalandhar | 3000+ Blood Tests – Yuva Lab"
+
+Meta Description:
+"Explore 3000+ diagnostic tests in Jalandhar including blood, liver, kidney, thyroid tests. Home collection available with fast reports."
+
+Add:
+
+* Canonical → /tests
+* Robots → index, follow
+
+Ensure dynamic override support (future scalability).
+
+---
+
+2. STRUCTURED DATA SYSTEM (CRITICAL)
+
+---
+
+Inject JSON-LD with following schemas:
+
+A) ItemList Schema:
+
+* Represent all tests displayed
+* Include:
+
+  * name
+  * position
+  * url (/test/{slug})
+
+B) MedicalTest Schema (for each test entity):
+
+* name
+* description (auto-generate short)
+* sampleType (blood/urine/etc.)
+* resultTime
+* provider: Yuva Lab
+
+C) Breadcrumb Schema:
+Home → Tests
+
+D) FAQ Schema:
+
+* How many tests available?
+* Do you provide home collection?
+* Report delivery time?
+
+---
+
+3. PROGRAMMATIC SEO ARCHITECTURE
+
+---
+
+Implement backend system to support individual test pages:
+
+Route:
+/test/{test-slug}-in-jalandhar
+
+Slug rules:
+
+* lowercase
+* hyphen-separated
+* remove special characters
+
+Each test page should dynamically receive:
+
+* name
+* category
+* report time
+* price
+
+Ensure:
+
+* SEO-ready data structure (even if page not yet rendered)
+* Clean routing system
+
+---
+
+4. LARGE DATA PERFORMANCE HANDLING
+
+---
+
+Handle 3000+ test records efficiently:
+
+* Implement pagination OR virtualized rendering
+* Lazy load test data (API-based or chunked loading)
+* Do NOT render all tests at once
+
+Backend must:
+
+* Support fast query/filter
+* Cache test data
+
+---
+
+5. SEARCH & FILTER SEO HANDLING
+
+---
+
+Implement backend logic:
+
+* Search queries should be crawlable only if valuable
+* Apply canonical tags for filtered URLs
+  Example:
+  /tests?category=blood-test → canonical /tests
+
+Avoid duplicate indexing issues.
+
+---
+
+6. INTERNAL LINKING LOGIC
+
+---
+
+Auto-generate links:
+
+* Each test item → /services
+* Each test item → /packages
+
+Anchor text examples:
+
+* "Explore blood test services in Jalandhar"
+* "View health packages"
+
+---
+
+7. IMAGE SEO AUTOMATION
+
+---
+
+For all test-related icons/images:
+
+Auto-assign ALT attributes:
+
+* "{Test Name} test in Jalandhar"
+* "Diagnostic lab test Mithapur"
+
+---
+
+8. LOCAL SEO SIGNAL INJECTION
+
+---
+
+Add LocalBusiness schema globally:
+
+* name: Yuva Lab
+* address: Mithapur, Jalandhar, Punjab
+* phone: +91-9888772209
+
+Include:
+
+* areaServed: Jalandhar
+
+---
+
+9. OPEN GRAPH & SOCIAL TAGS
+
+---
+
+Add:
+
+og:title → same as meta title
+og:description → same as meta description
+og:url → /tests
+og:type → website
+
+Twitter card:
+summary_large_image
+
+---
+
+10. EVENT TRACKING (BACKEND SUPPORT)
+
+---
+
+Prepare hooks for:
+
+* Book Test clicks
+* Search usage
+* Filter usage
+
+Compatible with:
+Google Tag Manager / GA4
+
+---
+
+11. PERFORMANCE & CORE WEB VITALS
+
+---
+
+* Enable caching (server or CDN level)
+* Compress responses (gzip/brotli)
+* Minify API responses
+* Avoid heavy payloads
+
+Target:
+Fast response time under 200ms for test data
+
+---
+
+## FINAL OUTPUT:
+
+* Clean backend SEO implementation for /tests
+* Scalable architecture for 3000+ tests
+* SEO-friendly data handling
+* Production-ready optimized code
+
+---
+
+Goal:
+Make /tests page fully indexable, fast, and ready for programmatic SEO expansion.
+
+Focus:
+Speed + structured data + scalability + local SEO dominance

@@ -1,0 +1,153 @@
+Yuva Lab Website Design Specifications
+Theme & Color Palette
+Primary Medical Blue: #2563eb
+Light Blue: #3b82f6
+Background: #f8fafc (light gray)
+White: #ffffff for cards and sections
+Text Colors:
+
+Primary: #1f2937 (dark gray)
+Secondary: #6b7280 (medium gray)
+Light: #9ca3af (light gray)
+Gradients:
+
+Medical gradient: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%)
+Background accents: subtle blue/white gradients
+Typography
+Primary Font: Inter (Google Fonts)
+Headings: Bold weights (600-700)
+Body: Regular (400) and Medium (500)
+Buttons: Medium weight (500)
+
+Home Page Structure & Detailed UI
+1. Navigation Bar
+Background: White with 95% opacity, backdrop blur effect
+Height: 80px
+Logo: "Yuva Lab" with flask icon in medical blue circle
+Menu Items: Home, Services, Packages, Blog, About, Contact
+CTA Button: "Book Now" - rounded corners, medical blue background
+Mobile: Hamburger menu with slide-out panel
+2. Hero Section
+Background: Medical gradient (blue) with overlay pattern
+Layout: Centered content with image on right
+Content:
+
+Main Heading: "Trusted Medical Diagnostics in Jalandhar" (white, large bold)
+Subheading: "Advanced testing technology with accurate results you can trust" (light blue text)
+Two CTAs:
+Primary: "Book Test Now" (white button with blue text)
+Secondary: "View Services" (outline white button)
+Right Side: Medical laboratory image or illustration
+Bottom: Floating stats cards showing "5000+ Tests", "99.9% Accuracy", "24hr Results"
+3. Quick Booking Section
+Background: White with subtle shadow
+Layout: Horizontal form with fields
+Elements:
+
+Select test dropdown
+Date picker
+Time slot selector
+"Book Now" button (medical blue)
+WhatsApp quick contact button (green)
+4. Featured Services Grid
+Title: "Our Medical Services" (center aligned)
+Layout: 3x2 grid of service cards
+Card Design:
+
+White background with blue border on hover
+Icon (medical themed) in blue circle
+Service name (bold)
+Brief description (2 lines)
+"Learn More" link in blue
+Services: Blood Tests, Health Packages, Hormone Tests, Genetic Testing, Toxicology, Specialized Diagnostics
+5. Health Packages Showcase
+Background: Light gray section
+Title: "Complete Health Packages"
+Layout: Horizontal scrolling cards
+Package Cards:
+
+Featured badge for popular packages
+Package name and brief description
+Test count (e.g., "25 Tests Included")
+Original price (strikethrough) and current price
+"Book Package" button
+Discount percentage badge
+6. Why Choose Us Section
+Background: White
+Layout: 4 columns with icons and text
+Features:
+
+"Accurate Results" with shield icon
+"Quick Reports" with clock icon
+"Expert Team" with team icon
+"Home Collection" with home icon
+Design: Each feature has blue icon, bold title, descriptive text
+7. Statistics Section
+Background: Medical gradient
+Layout: 4 statistics in white text
+Stats:
+
+"10,000+ Happy Patients"
+"500+ Tests Available"
+"99.9% Accuracy Rate"
+"24hr Report Delivery"
+Animation: Counter animation on scroll
+8. Testimonials Carousel
+Background: Light gray
+Layout: Centered carousel with 3 visible cards
+Card Design:
+
+White background with subtle shadow
+Star rating (5 stars in yellow)
+Patient quote in quotation marks
+Patient name and age/location
+Profile photo placeholder
+9. Contact Information
+Background: White section
+Layout: Split - left side contact info, right side map
+Left Side:
+
+"Visit Our Lab" heading
+Address with location icon
+Phone with phone icon
+Email with email icon
+Hours with clock icon
+Right Side: Google Maps embed or location image
+10. Footer
+Background: Dark gray (#1f2937)
+Layout: 4 columns
+Content:
+
+Logo and lab description
+Quick links (Services, About, Contact)
+Contact information
+Social media icons
+Bottom: Copyright and privacy links
+Interactive Elements
+Buttons
+Primary: Medical blue background, white text, rounded-xl corners, hover shadow
+Secondary: White background, blue border and text, hover blue background
+WhatsApp: Green background (#22c55e), white text, with WhatsApp icon
+Cards
+Default: White background, subtle border, rounded-lg corners
+Hover: Slight shadow increase, blue accent border
+Featured: Blue accent on top border, "Featured" badge
+Forms
+Inputs: White background, gray border, rounded-lg, blue focus border
+Selects: Dropdown with blue accent on selection
+Buttons: Full-width medical blue with white text
+WhatsApp Integration
+Floating Button: Fixed bottom-right, green circle with WhatsApp icon
+Contact Forms: Redirect to WhatsApp with pre-filled message
+Phone Number: +91-9876543210
+Mobile Responsive Design
+Breakpoints: Mobile-first approach
+Navigation: Collapsible hamburger menu
+Hero: Stacked layout with image below text
+Grids: Single column on mobile, 2 columns on tablet, 3+ on desktop
+Typography: Responsive font sizes using rem units
+Animations & Interactions
+Page Load: Fade-in animations for sections
+Hover Effects: Smooth transitions on buttons and cards
+Scroll Animations: Counter animations, slide-in effects
+Loading States: Skeleton screens for dynamic content

@@ -1,0 +1,226 @@
+1. FRONTEND SEO (PACKAGES PAGE – RANKING)
+🔥 Title
+
+👉 Best Health Checkup Packages in Jalandhar | Full Body Test – Yuva Lab
+
+🔥 Meta Description
+
+👉 Book affordable full body health checkup packages in Jalandhar. 20–60+ tests included. Home collection & fast reports available.
+
+🏗️ SEO Intro (Top add kar)
+H1:
+
+👉 Health Checkup Packages in Jalandhar
+
+Paragraph:
+
+👉
+Yuva Lab offers comprehensive health checkup packages in Jalandhar designed for preventive care and early disease detection. From full body checkups to specialized packages for men and women, our diagnostic services ensure accurate results, home sample collection, and fast reporting.
+
+🔥 Package SEO Structure
+
+Har package ko SEO-friendly bana:
+
+Example:
+
+👉 Full Body Health Checkup Package in Jalandhar (Male)
+👉 Description:
+This package includes essential blood tests, vitamin levels, and organ function analysis to ensure complete health monitoring for men.
+
+👉 Add:
+
+✔ Ideal for age group
+✔ When to take
+✔ Benefits
+🔥 Keyword Injection (Natural)
+
+Use:
+
+full body checkup Jalandhar
+health packages near Mithapur
+preventive health checkup Punjab
+🔥 Why Choose Section (Upgrade)
+
+👉
+
+✔ 20–60+ tests in one package
+✔ Same day reports
+✔ Free home collection
+✔ Affordable pricing
+✔ Trusted lab since 2007
+🔥 FAQ Section (Must Add)
+
+👉
+Q: Which is the best health checkup package in Jalandhar?
+👉 Yuva Lab offers affordable and comprehensive packages for all age groups.
+
+Q: Do packages include home collection?
+👉 Yes, all packages include free home sample collection.
+
+Q: How fast are reports delivered?
+👉 Reports are delivered within 4–24 hours.
+
+🔥 Conversion Hack
+
+👉 Add sticky:
+
+Book Package
+Call Now
+WhatsApp
+
+👉 Add urgency:
+
+Limited time discount
+Popular package badge
+⚙️ 🔥 2. ULTRA BACKEND SEO PROMPT (PACKAGES PAGE)
+
+👉 Copy and give to Replit
+
+Writing
+
+You are a senior full-stack developer and technical SEO expert.
+
+Your task is to implement backend SEO ONLY for the "Health Packages Page" of a diagnostic lab website (Yuva Lab – Jalandhar).
+
+Focus ONLY on this page.
+
+Do NOT mention or modify URL structure explicitly. Focus on SEO logic, structured data, performance, and scalability.
+
+META SEO ENGINE
+
+Inject dynamic meta tags:
+
+Title:
+"Best Health Checkup Packages in Jalandhar | Full Body Test – Yuva Lab"
+
+Meta Description:
+"Book affordable full body health checkup packages in Jalandhar with home collection and fast reports. Multiple packages available for men and women."
+
+Add:
+
+Canonical tag
+Robots → index, follow
+STRUCTURED DATA (CRITICAL)
+
+Inject JSON-LD schemas:
+
+A) MedicalBusiness Schema:
+
+name: Yuva Lab
+address: Mithapur, Jalandhar, Punjab
+phone: +91-9888772209
+openingHours
+
+B) Product Schema (for each package):
+
+name (package name)
+description
+price
+priceCurrency: INR
+provider: Yuva Lab
+
+C) Offer Schema:
+
+discount price
+original price
+availability: InStock
+
+D) FAQ Schema:
+
+Best health package in Jalandhar?
+Home collection availability?
+Report delivery time?
+PACKAGE DATA SEO STRUCTURE
+
+Ensure backend stores structured package data:
+
+Fields:
+
+package name
+test count
+included tests
+price
+discounted price
+report time
+
+Allow dynamic rendering of SEO-friendly content per package.
+
+PERFORMANCE OPTIMIZATION
+Lazy load package cards
+Optimize images (WebP)
+Minify CSS/JS
+Enable caching
+
+Ensure fast load (<2.5s)
+
+INTERNAL LINKING LOGIC
+
+Auto-link:
+
+Packages → Tests
+Packages → Services
+Packages → Contact
+
+Use keyword-based anchor text:
+
+"View all diagnostic tests"
+"Explore blood test services"
+IMAGE SEO AUTOMATION
+
+Auto ALT tags:
+
+"Full body checkup package in Jalandhar"
+"Health test package Mithapur Punjab"
+LOCAL SEO SIGNALS
+
+Inject LocalBusiness schema:
+
+areaServed: Jalandhar
+consistent NAP data
+
+Embed Google Maps
+
+OPEN GRAPH + SOCIAL SEO
+
+Add:
+
+og
+og
+og
+og
+
+Twitter card:
+summary_large_image
+
+EVENT TRACKING SUPPORT
+
+Track:
+
+Book Package clicks
+Call clicks
+WhatsApp clicks
+
+Compatible with GA4 / GTM
+
+SECURITY + HEADERS
+
+Add:
+
+HTTPS enforcement
+X-Frame-Options
+X-Content-Type-Options
+FINAL OUTPUT:
+Fully optimized backend SEO for packages page
+Structured data implemented correctly
+Fast loading and scalable
+Ready for production
+
+Goal:
+Rank for:
+
+full body checkup Jalandhar
+health packages Jalandhar
+preventive health checkup Punjab
+
+Focus:
+Local SEO + conversion + performance

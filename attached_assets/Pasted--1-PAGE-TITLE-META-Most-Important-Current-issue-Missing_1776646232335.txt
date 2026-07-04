@@ -1,0 +1,163 @@
+🔥 1. PAGE TITLE + META (Most Important)
+
+Current issue: Missing high-converting keywords
+
+✅ Replace with this:
+
+Title (H1 + Meta Title):
+👉 Best Diagnostic Lab in Jalandhar | Blood Tests, Health Packages – Yuva Lab
+
+Meta Description:
+👉 Yuva Lab is a trusted diagnostic centre in Jalandhar offering blood tests, hormone profiles, genetic testing & home collection. Accurate reports in 4 hours. Book now!
+
+Slug:
+👉 /diagnostic-services-jalandhar
+
+🧠 2. KEYWORD STRATEGY (High Ranking Plan)
+
+Target these clusters:
+
+Primary Keywords
+diagnostic lab in Jalandhar
+blood test lab near Mithapur
+pathology lab Jalandhar
+Secondary Keywords
+home collection blood test Jalandhar
+health checkup packages Punjab
+thyroid test Jalandhar
+Long-tail (money keywords)
+affordable blood test lab in Jalandhar
+same day blood test report Jalandhar
+best lab for hormone testing Punjab
+
+👉 Har section me naturally use karna hai (keyword stuffing nahi)
+
+🏗️ 3. CONTENT UPGRADE (THIS IS WHERE YOU WIN)
+🔴 Replace “Our Services” section with this SEO block:
+H2:
+
+👉 Diagnostic Services in Jalandhar
+
+Intro Paragraph (IMPORTANT):
+
+👉
+Yuva Lab is a leading diagnostic lab in Jalandhar offering accurate and fast medical testing services. From routine blood tests to advanced genetic and hormone analysis, we ensure reliable reports with modern technology and expert supervision. Our NABL-standard processes guarantee precision and timely delivery.
+
+🔥 Each Service → SEO optimized (example)
+H3: Blood Tests in Jalandhar
+
+👉
+We provide complete blood testing services including CBC, blood sugar, lipid profile, liver function, and kidney tests. Our lab ensures accurate reports within hours, making us one of the most trusted blood test labs in Jalandhar.
+
+👉 Add:
+
+✔ Same-day reports
+✔ Home collection available
+✔ Affordable pricing
+H3: Health Checkup Packages
+
+👉
+Our customized health packages are designed for preventive care and early detection of diseases. Suitable for all age groups, these packages include multiple diagnostic tests at affordable prices.
+
+H3: Hormone Testing Lab
+
+👉
+We offer advanced hormone profile testing including thyroid, testosterone, estrogen, and fertility-related diagnostics with high accuracy.
+
+H3: Genetic Testing Services
+
+👉
+Our genetic testing helps identify hereditary conditions and supports personalized treatment plans using modern diagnostic techniques.
+
+H3: Toxicology Testing
+
+👉
+We provide drug screening and toxin analysis services for medical and legal purposes with accurate reporting.
+
+H3: Specialized Diagnostics
+
+👉
+Advanced testing for allergies, autoimmune disorders, and rare medical conditions with expert analysis.
+
+💰 4. CONVERSION BOOST (THIS WILL PRINT MONEY)
+
+Add this section:
+
+🔥 Why Choose Yuva Lab?
+
+👉
+
+NABL standard testing procedures
+Reports within 4 hours
+Experienced lab technicians
+Home sample collection available
+Trusted diagnostic centre since 2007
+🔥 Add CTA (VERY IMPORTANT)
+
+👉
+Book Your Test Today in Jalandhar
+Fast, reliable, and affordable diagnostic services near you.
+
+👉 Buttons:
+
+Book Now
+Call Now
+WhatsApp Now
+⚙️ 5. TECHNICAL SEO (DON’T SKIP)
+✅ Add Schema (VERY POWERFUL)
+
+Use:
+
+MedicalBusiness schema
+LocalBusiness schema
+
+Example:
+
+{
+ "@context": "https://schema.org",
+ "@type": "MedicalBusiness",
+ "name": "Yuva Lab",
+ "address": {
+   "@type": "PostalAddress",
+   "addressLocality": "Jalandhar",
+   "addressRegion": "Punjab",
+   "streetAddress": "Kalgidhar Avenue, Mithapur"
+ },
+ "telephone": "+91-9888772209"
+}
+✅ Add Internal Links
+Services → Tests page
+Services → Packages
+Services → Contact
+✅ Add Image SEO
+
+Every service icon/image:
+
+alt="Blood Test Lab in Jalandhar"
+alt="Diagnostic Lab Mithapur Punjab"
+🚀 6. LOCAL SEO BOOST (GAME CHANGER)
+
+Mention location multiple times naturally:
+
+👉 Jalandhar
+👉 Mithapur
+👉 Punjab
+
+Also add:
+👉 Google Maps embed
+👉 Reviews section
+
+⚡ 7. ADVANCED GROWTH HACK (AGENCY SECRET)
+
+Add FAQ section (rank booster)
+
+H2: Frequently Asked Questions
+
+Q1: Which is the best diagnostic lab in Jalandhar?
+👉 Yuva Lab is one of the most trusted labs with fast and accurate reports.
+
+Q2: Do you provide home sample collection?
+👉 Yes, we offer home collection across Jalandhar.
+
+Q3: How fast are reports delivered?
+👉 Most reports are delivered within 4 hours.

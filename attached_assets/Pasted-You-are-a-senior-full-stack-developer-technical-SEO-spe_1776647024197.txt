@@ -1,0 +1,204 @@
+You are a senior full-stack developer, technical SEO specialist, and performance engineer.
+
+Your task is to implement backend SEO ONLY for the "Health Packages Page" of a diagnostic lab website (Yuva Lab – Jalandhar).
+
+Focus strictly on SEO architecture, structured data, performance optimization, and scalability.
+
+Do NOT modify UI unnecessarily.
+
+---
+
+1. META SEO SYSTEM (DYNAMIC)
+
+---
+
+Inject server-side meta tags:
+
+Title:
+"Best Health Checkup Packages in Jalandhar | Full Body Test – Yuva Lab"
+
+Meta Description:
+"Book full body health checkup packages in Jalandhar with home collection and fast reports. Affordable packages for men and women."
+
+Add:
+
+* Canonical tag (self-referencing)
+* Robots tag → index, follow
+
+Ensure future support for dynamic overrides.
+
+---
+
+2. STRUCTURED DATA IMPLEMENTATION
+
+---
+
+Inject JSON-LD schemas:
+
+A) MedicalBusiness Schema:
+
+* name: Yuva Lab
+* address: Mithapur, Jalandhar, Punjab
+* phone: +91-9888772209
+* openingHours
+* areaServed: Jalandhar
+
+B) Product Schema (for each package):
+
+* name (package name)
+* description (short SEO description)
+* brand: Yuva Lab
+* category: Health Checkup Package
+
+C) Offer Schema (nested in Product):
+
+* price (discounted)
+* priceCurrency: INR
+* availability: InStock
+* priceValidUntil (optional)
+
+D) ItemList Schema:
+
+* List all packages with position and URL
+
+E) FAQ Schema:
+
+* Best health package in Jalandhar?
+* Do packages include home collection?
+* How fast are reports delivered?
+
+---
+
+3. DATA STRUCTURE FOR SEO
+
+---
+
+Ensure backend stores structured package data:
+
+Fields:
+
+* package_name
+* package_code
+* test_count
+* included_tests (array)
+* original_price
+* discounted_price
+* report_time
+* category (male/female/general)
+
+All data must be easily consumable for SEO rendering.
+
+---
+
+4. PERFORMANCE OPTIMIZATION
+
+---
+
+* Lazy load package cards
+* Optimize images (WebP format)
+* Minify CSS and JS
+* Enable server-side caching
+* Compress responses (gzip/brotli)
+
+Ensure:
+Fast load time (<2.5 seconds)
+
+---
+
+5. INTERNAL LINKING ENGINE
+
+---
+
+Auto-generate internal links:
+
+* Each package → tests page
+* Each package → services page
+* Each package → contact page
+
+Use keyword-based anchors:
+
+* "Explore diagnostic tests in Jalandhar"
+* "View all blood test services"
+
+---
+
+6. IMAGE SEO AUTOMATION
+
+---
+
+Auto-assign ALT tags:
+
+* "{Package Name} health checkup in Jalandhar"
+* "Full body test package Mithapur Punjab"
+
+---
+
+7. LOCAL SEO SIGNAL INJECTION
+
+---
+
+* Maintain consistent NAP data
+* Embed Google Maps location
+* Reinforce location (Jalandhar, Mithapur)
+
+---
+
+8. OPEN GRAPH + SOCIAL TAGS
+
+---
+
+Add:
+
+og:title → same as meta title
+og:description → same as meta description
+og:type → website
+
+Twitter Card:
+summary_large_image
+
+---
+
+9. EVENT TRACKING SUPPORT
+
+---
+
+Prepare backend hooks for:
+
+* Book Package click
+* Call click
+* WhatsApp click
+
+Compatible with GA4 and GTM
+
+---
+
+10. SECURITY + HEADERS
+
+---
+
+Implement:
+
+* HTTPS enforcement
+* X-Frame-Options: SAMEORIGIN
+* X-Content-Type-Options: nosniff
+
+---
+
+## FINAL OUTPUT:
+
+* Fully optimized backend SEO for packages page
+* Clean modular structure
+* Structured data correctly implemented
+* Fast, scalable, production-ready system
+
+---
+
+Goal:
+Rank for:
+
+* health checkup packages Jalandhar
+* full body checkup Jalandhar
+* preventive health packages Punjab
+
+Focus:
+Local SEO + structured data + performance + conversion readiness

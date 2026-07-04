@@ -1,0 +1,198 @@
+You are a senior full-stack developer, technical SEO expert, and authority optimization specialist.
+
+Your task is to implement backend SEO ONLY for the "About Page" of a diagnostic lab website (Yuva Lab – Jalandhar).
+
+Focus on:
+
+* E-E-A-T (Experience, Expertise, Authority, Trust)
+* Structured data
+* Local SEO signals
+* Performance optimization
+
+Do NOT modify UI unnecessarily.
+
+---
+
+1. META SEO SYSTEM
+
+---
+
+Inject server-side meta tags:
+
+Title:
+"About Yuva Lab | Trusted Diagnostic Lab in Jalandhar Since 2007"
+
+Meta Description:
+"Learn about Yuva Lab, a leading diagnostic lab in Jalandhar offering accurate blood tests, health packages, and fast reporting since 2007."
+
+Add:
+
+* Canonical tag (self-referencing)
+* Robots tag → index, follow
+
+---
+
+2. ADVANCED STRUCTURED DATA (E-E-A-T FOCUS)
+
+---
+
+Inject JSON-LD:
+
+A) MedicalBusiness Schema:
+
+* name: Yuva Lab
+* address: Mithapur, Jalandhar, Punjab
+* phone: +91-9888772209
+* email: [yuvalab24@gmail.com](mailto:yuvalab24@gmail.com)
+* openingHours
+* areaServed: Jalandhar
+
+B) Organization Schema:
+
+* name: Yuva Lab
+* foundingDate: 2007
+* founder: Jatinder
+* contactPoint
+
+C) AboutPage Schema:
+
+* mainEntity → Yuva Lab
+* description
+
+D) Person Schema (optional for doctors/authors):
+
+* name
+* role
+
+---
+
+3. TRUST SIGNAL INJECTION
+
+---
+
+Ensure backend supports:
+
+* Years of experience (since 2007)
+* Number of tests offered
+* Accuracy percentage (99.9%)
+
+Expose these as structured data or content variables.
+
+---
+
+4. LOCAL SEO SIGNALS
+
+---
+
+* Ensure consistent NAP (Name, Address, Phone)
+* Reinforce location: Jalandhar, Mithapur, Punjab
+
+Optional:
+
+* Add geo coordinates if available
+
+---
+
+5. INTERNAL LINKING SUPPORT
+
+---
+
+Auto-link:
+
+* About → Services
+* About → Tests
+* About → Packages
+* About → Contact
+
+Anchor examples:
+
+* "Explore diagnostic services in Jalandhar"
+* "Book blood tests"
+
+---
+
+6. IMAGE SEO OPTIMIZATION
+
+---
+
+Auto ALT tags:
+
+* "Diagnostic lab in Jalandhar"
+* "Medical laboratory Mithapur Punjab"
+
+Optimize:
+
+* WebP format
+* Lazy loading
+
+---
+
+7. OPEN GRAPH + SOCIAL SEO
+
+---
+
+Add:
+
+og:title → same as meta title
+og:description → same as meta description
+og:type → website
+
+Twitter card:
+summary_large_image
+
+---
+
+8. PERFORMANCE OPTIMIZATION
+
+---
+
+* Minify CSS/JS
+* Enable caching
+* Compress responses
+* Optimize assets
+
+Target:
+Fast load (<2.5s)
+
+---
+
+9. SECURITY + HEADERS
+
+---
+
+Implement:
+
+* HTTPS enforcement
+* X-Frame-Options: SAMEORIGIN
+* X-Content-Type-Options: nosniff
+
+---
+
+10. EVENT TRACKING SUPPORT
+
+---
+
+Prepare backend hooks for:
+
+* Call button clicks
+* Book Now clicks
+* Contact interactions
+
+Compatible with GA4 / GTM
+
+---
+
+## FINAL OUTPUT:
+
+* Fully optimized backend SEO for About page
+* Strong E-E-A-T signals
+* Structured data implemented
+* Clean scalable architecture
+
+---
+
+Goal:
+Strengthen authority and trust signals to improve ranking of entire website.
+
+Focus:
+E-E-A-T + local SEO + credibility

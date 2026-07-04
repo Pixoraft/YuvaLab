@@ -1,0 +1,191 @@
+You are a senior full-stack developer and technical SEO expert.
+
+Your task is to optimize ONLY the "Services Page" of a diagnostic lab website (Yuva Lab – Jalandhar) with high-level backend SEO, structured data, and performance optimization.
+
+Focus ONLY on this page:
+URL: /services
+
+---
+
+1. DYNAMIC META SEO (CRITICAL)
+
+---
+
+Implement server-side or dynamic injection of:
+
+Title:
+"Best Diagnostic Lab Services in Jalandhar | Blood Test, Health Packages – Yuva Lab"
+
+Meta Description:
+"Explore Yuva Lab’s diagnostic services in Jalandhar including blood tests, hormone testing, genetic testing & home collection. Fast reports in 4 hours."
+
+Meta Keywords (optional but include):
+diagnostic lab Jalandhar, blood test Jalandhar, pathology lab Mithapur, health checkup Punjab
+
+Add:
+
+* Canonical tag → /services
+* Robots tag → index, follow
+
+---
+
+2. STRUCTURED DATA (JSON-LD)
+
+---
+
+Inject the following schemas on this page:
+
+A) MedicalBusiness Schema:
+
+* name: Yuva Lab
+* address: Mithapur, Jalandhar, Punjab
+* phone: +91-9888772209
+* openingHours: Mon-Sat 7AM–8PM, Sun 8AM–6PM
+* areaServed: Jalandhar
+
+B) Service Schema:
+List all services:
+
+* Blood Tests
+* Health Packages
+* Hormone Testing
+* Genetic Testing
+* Toxicology
+* Specialized Diagnostics
+
+Each should include:
+
+* name
+* description
+* provider: Yuva Lab
+
+C) FAQ Schema:
+Include:
+
+* Best diagnostic lab in Jalandhar?
+* Do you provide home collection?
+* How fast are reports delivered?
+
+---
+
+3. PAGE PERFORMANCE OPTIMIZATION
+
+---
+
+* Enable lazy loading for all images/icons
+* Convert images to WebP
+* Minify CSS and JS
+* Inline critical CSS for above-the-fold content
+* Defer non-critical scripts
+* Enable caching headers
+
+Target:
+
+* Page load under 2.5 seconds
+
+---
+
+4. INTERNAL LINKING STRUCTURE
+
+---
+
+Add backend logic for internal linking:
+
+* Link /services → /tests
+* Link /services → /packages
+* Link /services → /contact
+
+Use SEO anchor text:
+
+* "View all blood tests in Jalandhar"
+* "Check health packages"
+* "Book diagnostic test"
+
+---
+
+5. LOCAL SEO SIGNALS
+
+---
+
+* Embed Google Maps (Jalandhar location)
+
+* Ensure NAP consistency in backend:
+  Name: Yuva Lab
+  Address: Mithapur, Jalandhar, Punjab
+  Phone: +91-9888772209
+
+* Add LocalBusiness schema with geo coordinates (if available)
+
+---
+
+6. IMAGE SEO AUTOMATION
+
+---
+
+Automatically assign ALT tags:
+
+Examples:
+
+* "Blood test lab in Jalandhar"
+* "Diagnostic services Mithapur Punjab"
+* "Hormone testing lab Jalandhar"
+
+---
+
+7. OPEN GRAPH + SOCIAL SEO
+
+---
+
+Add:
+
+og:title → same as meta title
+og:description → same as meta description
+og:type → website
+og:url → /services
+
+Twitter card:
+summary_large_image
+
+---
+
+8. SECURITY + HEADERS
+
+---
+
+Add:
+
+* HTTPS enforcement
+* X-Frame-Options: SAMEORIGIN
+* X-Content-Type-Options: nosniff
+
+---
+
+9. CONVERSION TRACKING (IMPORTANT)
+
+---
+
+Track events:
+
+* Book Now button click
+* Call button click
+* Contact form submit
+
+Use Google Tag Manager or GA4 event tracking.
+
+---
+
+## FINAL OUTPUT:
+
+* Fully optimized backend for /services page
+* Clean, modular implementation
+* SEO-ready, fast-loading, production-ready code
+
+Goal:
+Rank this page for:
+
+* diagnostic services Jalandhar
+* blood test lab Jalandhar
+* pathology lab near Mithapur
+
+Focus on:
+Local SEO + speed + structured data + conversions
